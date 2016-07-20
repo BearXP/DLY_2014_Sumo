@@ -1,0 +1,313 @@
+   1               		.file	"main.c"
+   2               		.arch atmega2560
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  17               	.Ltext0:
+  18               	.global	__vector_10
+  20               	__vector_10:
+  21               	.LFB3:
+  22               	.LM1:
+  23               	/* prologue: frame size=0 */
+  24 0000 1F92      		push __zero_reg__
+  25 0002 0F92      		push __tmp_reg__
+  26 0004 0FB6      		in __tmp_reg__,__SREG__
+  27 0006 0F92      		push __tmp_reg__
+  28 0008 1124      		clr __zero_reg__
+  29 000a 2F93      		push r18
+  30 000c 3F93      		push r19
+  31 000e 8F93      		push r24
+  32 0010 9F93      		push r25
+  33               	/* prologue end (size=9) */
+  34               	.LM2:
+  35 0012 1092 0000 		sts line_triggered,__zero_reg__
+  36               	.LM3:
+  37 0016 3091 0301 		lds r19,259
+  38               	.LVL0:
+  39               	.LM4:
+  40 001a 2091 0000 		lds r18,previous_port_j
+  41               	.LVL1:
+  42 001e 8091 0000 		lds r24,previous_port_j
+  43 0022 9091 0000 		lds r25,interrupt_edge_port_j
+  44 0026 2327      		eor r18,r19
+  45 0028 8927      		eor r24,r25
+  46 002a 2823      		and r18,r24
+  47               	.LM5:
+  48 002c 2031      		cpi r18,lo8(16)
+  49 002e 01F4      		brne .L2
+  50               	.LM6:
+  51 0030 34FD      		sbrc r19,4
+  52 0032 00C0      		rjmp .L4
+  53 0034 00C0      		rjmp .L10
+  54               	.L2:
+  55               	.LM7:
+  56 0036 2032      		cpi r18,lo8(32)
+  57 0038 01F0      		breq .L10
+  58               	.LM8:
+  59 003a 2034      		cpi r18,lo8(64)
+  60 003c 01F4      		brne .L4
+  61               	.L10:
+  62               	.LM9:
+  63 003e 81E0      		ldi r24,lo8(1)
+  64 0040 8093 0000 		sts line_triggered,r24
+  65               	.L4:
+  66               	.LM10:
+  67 0044 3093 0000 		sts previous_port_j,r19
+  68               	/* epilogue: frame size=0 */
+  69 0048 9F91      		pop r25
+  70 004a 8F91      		pop r24
+  71 004c 3F91      		pop r19
+  72 004e 2F91      		pop r18
+  73 0050 0F90      		pop __tmp_reg__
+  74 0052 0FBE      		out __SREG__,__tmp_reg__
+  75 0054 0F90      		pop __tmp_reg__
+  76 0056 1F90      		pop __zero_reg__
+  77 0058 1895      		reti
+  78               	/* epilogue end (size=9) */
+  79               	/* function __vector_10 size 45 (27) */
+  80               	.LFE3:
+  82               	.global	ioinit
+  84               	ioinit:
+  85               	.LFB5:
+  86               	.LM11:
+  87               	/* prologue: frame size=0 */
+  88               	/* prologue end (size=0) */
+  89               	.LM12:
+  90 005a 1092 8000 		sts 128,__zero_reg__
+  91               	.LM13:
+  92 005e E1E8      		ldi r30,lo8(129)
+  93 0060 F0E0      		ldi r31,hi8(129)
+  94 0062 83E0      		ldi r24,lo8(3)
+  95 0064 8083      		st Z,r24
+  96               	.LM14:
+  97 0066 8081      		ld r24,Z
+  98 0068 8860      		ori r24,lo8(8)
+  99 006a 8083      		st Z,r24
+ 100               	.LM15:
+ 101 006c 22E0      		ldi r18,lo8(2)
+ 102 006e 2093 6F00 		sts 111,r18
+ 103               	.LM16:
+ 104 0072 8DE0      		ldi r24,lo8(781)
+ 105 0074 93E0      		ldi r25,hi8(781)
+ 106 0076 9093 8900 		sts (136)+1,r25
+ 107 007a 8093 8800 		sts 136,r24
+ 108               	.LM17:
+ 109 007e 2093 6800 		sts 104,r18
+ 110               	.LM18:
+ 111 0082 8EEF      		ldi r24,lo8(-2)
+ 112 0084 8093 6C00 		sts 108,r24
+ 113               	.LM19:
+ 114               	/* #APP */
+ 115 0088 7894      		sei
+ 116               	/* #NOAPP */
+ 117               	/* epilogue: frame size=0 */
+ 118 008a 0895      		ret
+ 119               	/* epilogue end (size=1) */
+ 120               	/* function ioinit size 26 (25) */
+ 121               	.LFE5:
+ 123               	.global	main
+ 125               	main:
+ 126               	.LFB6:
+ 127               	.LM20:
+ 128               	/* prologue: frame size=0 */
+ 129               	/* prologue end (size=0) */
+ 130               	.LM21:
+ 131 008c 81E0      		ldi r24,lo8(1)
+ 132 008e 8093 0000 		sts led_on,r24
+ 133               	.LM22:
+ 134 0092 8093 0000 		sts line_triggered,r24
+ 135               	.LM23:
+ 136 0096 0E94 0000 		call Setup_Sumo_Ports
+ 137               	.LM24:
+ 138 009a 0E94 0000 		call ioinit
+ 139               	.LM25:
+ 140 009e 8FE7      		ldi r24,lo8(127)
+ 141 00a0 8093 0000 		sts interrupt_edge_port_j,r24
+ 142               	.LM26:
+ 143 00a4 1092 0000 		sts previous_port_j,__zero_reg__
+ 144               	.L14:
+ 145 00a8 00C0      		rjmp .L14
+ 146               	/* epilogue: frame size=0 */
+ 147               	/* epilogue: noreturn */
+ 148               	/* epilogue end (size=0) */
+ 149               	/* function main size 15 (15) */
+ 150               	.LFE6:
+ 152               	.global	__vector_17
+ 154               	__vector_17:
+ 155               	.LFB4:
+ 156               	.LM27:
+ 157               	/* prologue: frame size=0 */
+ 158 00aa 1F92      		push __zero_reg__
+ 159 00ac 0F92      		push __tmp_reg__
+ 160 00ae 0FB6      		in __tmp_reg__,__SREG__
+ 161 00b0 0F92      		push __tmp_reg__
+ 162 00b2 1124      		clr __zero_reg__
+ 163 00b4 2F93      		push r18
+ 164 00b6 3F93      		push r19
+ 165 00b8 4F93      		push r20
+ 166 00ba 5F93      		push r21
+ 167 00bc 6F93      		push r22
+ 168 00be 7F93      		push r23
+ 169 00c0 8F93      		push r24
+ 170 00c2 9F93      		push r25
+ 171 00c4 AF93      		push r26
+ 172 00c6 BF93      		push r27
+ 173 00c8 EF93      		push r30
+ 174 00ca FF93      		push r31
+ 175               	/* prologue end (size=17) */
+ 176               	.LM28:
+ 177 00cc 8091 0000 		lds r24,line_triggered
+ 178 00d0 8823      		tst r24
+ 179 00d2 01F0      		breq .L17
+ 180               	.LM29:
+ 181 00d4 E091 0000 		lds r30,comcount.1446
+ 182 00d8 FF27      		clr r31
+ 183 00da E7FD      		sbrc r30,7
+ 184 00dc F095      		com r31
+ 185 00de EE0F      		lsl r30
+ 186 00e0 FF1F      		rol r31
+ 187 00e2 E050      		subi r30,lo8(-(Stopchar))
+ 188 00e4 F040      		sbci r31,hi8(-(Stopchar))
+ 189 00e6 8081      		ld r24,Z
+ 190 00e8 9181      		ldd r25,Z+1
+ 191 00ea 9093 0000 		sts (line.1447)+1,r25
+ 192 00ee 8093 0000 		sts line.1447,r24
+ 193 00f2 00C0      		rjmp .L19
+ 194               	.L17:
+ 195               	.LM30:
+ 196 00f4 1092 0000 		sts (line.1447)+1,__zero_reg__
+ 197 00f8 1092 0000 		sts line.1447,__zero_reg__
+ 198               	.L19:
+ 199               	.LM31:
+ 200 00fc 8091 0000 		lds r24,line.1447
+ 201 0100 9091 0000 		lds r25,(line.1447)+1
+ 202 0104 0E94 0000 		call LED_Send_Line
+ 203               	.LM32:
+ 204 0108 8091 0000 		lds r24,comcount.1446
+ 205 010c 0E94 0000 		call LED_Set_Common
+ 206               	.LM33:
+ 207 0110 8091 0000 		lds r24,comcount.1446
+ 208 0114 8F5F      		subi r24,lo8(-(1))
+ 209 0116 8093 0000 		sts comcount.1446,r24
+ 210               	.LM34:
+ 211 011a 8830      		cpi r24,lo8(8)
+ 212 011c 04F0      		brlt .L22
+ 213               	.LM35:
+ 214 011e 1092 0000 		sts comcount.1446,__zero_reg__
+ 215               	.L22:
+ 216               	/* epilogue: frame size=0 */
+ 217 0122 FF91      		pop r31
+ 218 0124 EF91      		pop r30
+ 219 0126 BF91      		pop r27
+ 220 0128 AF91      		pop r26
+ 221 012a 9F91      		pop r25
+ 222 012c 8F91      		pop r24
+ 223 012e 7F91      		pop r23
+ 224 0130 6F91      		pop r22
+ 225 0132 5F91      		pop r21
+ 226 0134 4F91      		pop r20
+ 227 0136 3F91      		pop r19
+ 228 0138 2F91      		pop r18
+ 229 013a 0F90      		pop __tmp_reg__
+ 230 013c 0FBE      		out __SREG__,__tmp_reg__
+ 231 013e 0F90      		pop __tmp_reg__
+ 232 0140 1F90      		pop __zero_reg__
+ 233 0142 1895      		reti
+ 234               	/* epilogue end (size=17) */
+ 235               	/* function __vector_17 size 77 (43) */
+ 236               	.LFE4:
+ 238               	.global	Upchar
+ 239               		.data
+ 242               	Upchar:
+ 243 0000 FF00      		.word	255
+ 244 0002 0000      		.word	0
+ 245 0004 0000      		.word	0
+ 246 0006 0000      		.word	0
+ 247 0008 0000      		.word	0
+ 248 000a 0000      		.word	0
+ 249 000c 0000      		.word	0
+ 250 000e 0000      		.word	0
+ 251               	.global	Rightchar
+ 254               	Rightchar:
+ 255 0010 8080      		.word	-32640
+ 256 0012 8080      		.word	-32640
+ 257 0014 8080      		.word	-32640
+ 258 0016 8080      		.word	-32640
+ 259 0018 8080      		.word	-32640
+ 260 001a 8080      		.word	-32640
+ 261 001c 8080      		.word	-32640
+ 262 001e 8080      		.word	-32640
+ 263               	.global	Downchar
+ 266               	Downchar:
+ 267 0020 0000      		.word	0
+ 268 0022 0000      		.word	0
+ 269 0024 0000      		.word	0
+ 270 0026 0000      		.word	0
+ 271 0028 0000      		.word	0
+ 272 002a 0000      		.word	0
+ 273 002c 0000      		.word	0
+ 274 002e 00FF      		.word	-256
+ 275               	.global	Leftchar
+ 278               	Leftchar:
+ 279 0030 0101      		.word	257
+ 280 0032 0101      		.word	257
+ 281 0034 0101      		.word	257
+ 282 0036 0101      		.word	257
+ 283 0038 0101      		.word	257
+ 284 003a 0101      		.word	257
+ 285 003c 0101      		.word	257
+ 286 003e 0101      		.word	257
+ 287               	.global	Stopchar
+ 290               	Stopchar:
+ 291 0040 3C3C      		.word	15420
+ 292 0042 7E7E      		.word	32382
+ 293 0044 FFFF      		.word	-1
+ 294 0046 FFFF      		.word	-1
+ 295 0048 FFFF      		.word	-1
+ 296 004a FFFF      		.word	-1
+ 297 004c 7E7E      		.word	32382
+ 298 004e 3C3C      		.word	15420
+ 299               		.lcomm line.1447,2
+ 300               		.lcomm comcount.1446,1
+ 301               		.comm previous_port_j,1,1
+ 302               		.comm interrupt_edge_port_j,1,1
+ 303               		.comm led_on,1,1
+ 304               		.comm line_triggered,1,1
+ 305               		.comm xdif,2,1
+ 306               		.comm ydif,2,1
+ 355               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:3      *ABS*:0000003f __SREG__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:4      *ABS*:0000003e __SP_H__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:5      *ABS*:0000003d __SP_L__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:6      *ABS*:00000000 __tmp_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:7      *ABS*:00000001 __zero_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:20     .text:00000000 __vector_10
+                            *COM*:00000001 line_triggered
+                            *COM*:00000001 previous_port_j
+                            *COM*:00000001 interrupt_edge_port_j
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:84     .text:0000005a ioinit
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:125    .text:0000008c main
+                            *COM*:00000001 led_on
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:154    .text:000000aa __vector_17
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:299    .bss:00000002 comcount.1446
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:290    .data:00000040 Stopchar
+                             .bss:00000000 line.1447
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:242    .data:00000000 Upchar
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:254    .data:00000010 Rightchar
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:266    .data:00000020 Downchar
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAIdyB8.s:278    .data:00000030 Leftchar
+                            *COM*:00000002 xdif
+                            *COM*:00000002 ydif
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
+Setup_Sumo_Ports
+LED_Send_Line
+LED_Set_Common

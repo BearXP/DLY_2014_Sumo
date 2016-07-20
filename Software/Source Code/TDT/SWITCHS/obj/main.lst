@@ -1,0 +1,66 @@
+   1               		.file	"main.c"
+   2               		.arch atmega1280
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  17               	.Ltext0:
+  18               	.global	main
+  20               	main:
+  21               	.LFB2:
+  22               	.LM1:
+  23               	/* prologue: frame size=0 */
+  24 0000 C0E0      		ldi r28,lo8(__stack - 0)
+  25 0002 D0E0      		ldi r29,hi8(__stack - 0)
+  26 0004 DEBF      		out __SP_H__,r29
+  27 0006 CDBF      		out __SP_L__,r28
+  28               	/* prologue end (size=4) */
+  29               	.LM2:
+  30               	/* #APP */
+  31 0008 F894      		cli
+  32               	.LM3:
+  33               	/* #NOAPP */
+  34 000a 8FEF      		ldi r24,lo8(-1)
+  35 000c 8AB9      		out 42-0x20,r24
+  36               	.LM4:
+  37 000e 1BB8      		out 43-0x20,__zero_reg__
+  38               	.LM5:
+  39 0010 1092 0101 		sts 257,__zero_reg__
+  40 0014 90E1      		ldi r25,lo8(16)
+  41               	.L9:
+  42               	.LM6:
+  43 0016 1BB8      		out 43-0x20,__zero_reg__
+  44               	.LM7:
+  45 0018 8091 0001 		lds r24,256
+  46               	.LM8:
+  47 001c 807C      		andi r24,lo8(-64)
+  48               	.LM9:
+  49 001e 11F0      		breq .L4
+  50 0020 9BB9      		out 43-0x20,r25
+  51 0022 F9CF      		rjmp .L9
+  52               	.L4:
+  53               	.LM10:
+  54 0024 8BB9      		out 43-0x20,r24
+  55 0026 F7CF      		rjmp .L9
+  56               	/* epilogue: frame size=0 */
+  57               	/* epilogue: noreturn */
+  58               	/* epilogue end (size=0) */
+  59               	/* function main size 22 (18) */
+  60               	.LFE2:
+  62               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+C:\DOCUME~1\TT\LOCALS~1\Temp/cccTaaaa.s:3      *ABS*:0000003f __SREG__
+C:\DOCUME~1\TT\LOCALS~1\Temp/cccTaaaa.s:4      *ABS*:0000003e __SP_H__
+C:\DOCUME~1\TT\LOCALS~1\Temp/cccTaaaa.s:5      *ABS*:0000003d __SP_L__
+C:\DOCUME~1\TT\LOCALS~1\Temp/cccTaaaa.s:6      *ABS*:00000000 __tmp_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/cccTaaaa.s:7      *ABS*:00000001 __zero_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/cccTaaaa.s:20     .text:00000000 main
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
+__stack

@@ -1,0 +1,389 @@
+   1               		.file	"main.c"
+   2               		.arch atmega2560
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  17               	.Ltext0:
+  18               	.global	__vector_10
+  20               	__vector_10:
+  21               	.LFB3:
+  22               	.LM1:
+  23               	/* prologue: frame size=0 */
+  24 0000 1F92      		push __zero_reg__
+  25 0002 0F92      		push __tmp_reg__
+  26 0004 0FB6      		in __tmp_reg__,__SREG__
+  27 0006 0F92      		push __tmp_reg__
+  28 0008 1124      		clr __zero_reg__
+  29 000a 2F93      		push r18
+  30 000c 3F93      		push r19
+  31 000e 8F93      		push r24
+  32 0010 9F93      		push r25
+  33               	/* prologue end (size=9) */
+  34               	.LM2:
+  35 0012 1092 0000 		sts line_triggered,__zero_reg__
+  36               	.LM3:
+  37 0016 3091 0301 		lds r19,259
+  38               	.LVL0:
+  39               	.LM4:
+  40 001a 2091 0000 		lds r18,previous_port_j
+  41               	.LVL1:
+  42 001e 8091 0000 		lds r24,previous_port_j
+  43 0022 9091 0000 		lds r25,interrupt_edge_port_j
+  44 0026 2327      		eor r18,r19
+  45 0028 8927      		eor r24,r25
+  46 002a 2823      		and r18,r24
+  47               	.LM5:
+  48 002c 2031      		cpi r18,lo8(16)
+  49 002e 01F4      		brne .L2
+  50               	.LM6:
+  51 0030 34FF      		sbrs r19,4
+  52 0032 00C0      		rjmp .L4
+  53 0034 00C0      		rjmp .L10
+  54               	.L2:
+  55               	.LM7:
+  56 0036 2032      		cpi r18,lo8(32)
+  57 0038 01F0      		breq .L10
+  58               	.LM8:
+  59 003a 2034      		cpi r18,lo8(64)
+  60 003c 01F4      		brne .L4
+  61               	.L10:
+  62               	.LM9:
+  63 003e 81E0      		ldi r24,lo8(1)
+  64 0040 8093 0000 		sts line_triggered,r24
+  65               	.L4:
+  66               	.LM10:
+  67 0044 3093 0000 		sts previous_port_j,r19
+  68               	/* epilogue: frame size=0 */
+  69 0048 9F91      		pop r25
+  70 004a 8F91      		pop r24
+  71 004c 3F91      		pop r19
+  72 004e 2F91      		pop r18
+  73 0050 0F90      		pop __tmp_reg__
+  74 0052 0FBE      		out __SREG__,__tmp_reg__
+  75 0054 0F90      		pop __tmp_reg__
+  76 0056 1F90      		pop __zero_reg__
+  77 0058 1895      		reti
+  78               	/* epilogue end (size=9) */
+  79               	/* function __vector_10 size 45 (27) */
+  80               	.LFE3:
+  82               	.global	ioinit
+  84               	ioinit:
+  85               	.LFB5:
+  86               	.LM11:
+  87               	/* prologue: frame size=0 */
+  88               	/* prologue end (size=0) */
+  89               	.LM12:
+  90 005a 1092 8000 		sts 128,__zero_reg__
+  91               	.LM13:
+  92 005e E1E8      		ldi r30,lo8(129)
+  93 0060 F0E0      		ldi r31,hi8(129)
+  94 0062 92E0      		ldi r25,lo8(2)
+  95 0064 9083      		st Z,r25
+  96               	.LM14:
+  97 0066 8081      		ld r24,Z
+  98 0068 8860      		ori r24,lo8(8)
+  99 006a 8083      		st Z,r24
+ 100               	.LM15:
+ 101 006c 9093 6F00 		sts 111,r25
+ 102               	.LM16:
+ 103 0070 8FEF      		ldi r24,lo8(-20481)
+ 104 0072 9FEA      		ldi r25,hi8(-20481)
+ 105 0074 9093 8900 		sts (136)+1,r25
+ 106 0078 8093 8800 		sts 136,r24
+ 107               	.LM17:
+ 108 007c 1092 AD00 		sts (172)+1,__zero_reg__
+ 109 0080 1092 AC00 		sts 172,__zero_reg__
+ 110               	.LM18:
+ 111 0084 1092 AB00 		sts (170)+1,__zero_reg__
+ 112 0088 1092 AA00 		sts 170,__zero_reg__
+ 113               	.LM19:
+ 114               	/* #APP */
+ 115 008c 7894      		sei
+ 116               	/* #NOAPP */
+ 117               	/* epilogue: frame size=0 */
+ 118 008e 0895      		ret
+ 119               	/* epilogue end (size=1) */
+ 120               	/* function ioinit size 28 (27) */
+ 121               	.LFE5:
+ 123               	.global	main
+ 125               	main:
+ 126               	.LFB6:
+ 127               	.LM20:
+ 128               	/* prologue: frame size=0 */
+ 129               	/* prologue end (size=0) */
+ 130               	.LM21:
+ 131 0090 81E0      		ldi r24,lo8(1)
+ 132 0092 8093 0000 		sts led_on,r24
+ 133               	.LM22:
+ 134 0096 8093 0000 		sts line_triggered,r24
+ 135               	.LM23:
+ 136 009a 0E94 0000 		call Setup_Sumo_Ports
+ 137               	.LM24:
+ 138 009e 0E94 0000 		call ioinit
+ 139               	.LM25:
+ 140 00a2 8FE7      		ldi r24,lo8(127)
+ 141 00a4 8093 0000 		sts interrupt_edge_port_j,r24
+ 142               	.LM26:
+ 143 00a8 1092 0000 		sts previous_port_j,__zero_reg__
+ 144 00ac 20E0      		ldi r18,lo8(0)
+ 145 00ae 30E0      		ldi r19,hi8(0)
+ 146 00b0 40E0      		ldi r20,hlo8(0)
+ 147 00b2 50E0      		ldi r21,hhi8(0)
+ 148               	.LVL2:
+ 149               	.LVL3:
+ 150               	.L14:
+ 151               	.LM27:
+ 152 00b4 DA01      		movw r26,r20
+ 153 00b6 C901      		movw r24,r18
+ 154               	.L15:
+ 155               	.LBB2:
+ 156               	.LM28:
+ 157 00b8 9C01      		movw r18,r24
+ 158 00ba AD01      		movw r20,r26
+ 159 00bc 2F5F      		subi r18,lo8(-(1))
+ 160 00be 3F4F      		sbci r19,hi8(-(1))
+ 161 00c0 4F4F      		sbci r20,hlo8(-(1))
+ 162 00c2 5F4F      		sbci r21,hhi8(-(1))
+ 163 00c4 80E0      		ldi r24,lo8(0)
+ 164 00c6 90E0      		ldi r25,hi8(0)
+ 165 00c8 A0E0      		ldi r26,hlo8(0)
+ 166 00ca B0E0      		ldi r27,hhi8(0)
+ 167 00cc 2030      		cpi r18,lo8(-294967296)
+ 168 00ce 68E2      		ldi r22,hi8(-294967296)
+ 169 00d0 3607      		cpc r19,r22
+ 170 00d2 6BE6      		ldi r22,hlo8(-294967296)
+ 171 00d4 4607      		cpc r20,r22
+ 172 00d6 6EEE      		ldi r22,hhi8(-294967296)
+ 173 00d8 5607      		cpc r21,r22
+ 174 00da 00F4      		brsh .L15
+ 175 00dc 00C0      		rjmp .L14
+ 176               	.LBE2:
+ 177               	/* epilogue: frame size=0 */
+ 178               	/* epilogue: noreturn */
+ 179               	/* epilogue end (size=0) */
+ 180               	/* function main size 39 (39) */
+ 181               	.LFE6:
+ 183               	.global	__vector_17
+ 185               	__vector_17:
+ 186               	.LFB4:
+ 187               	.LM29:
+ 188               	/* prologue: frame size=0 */
+ 189 00de 1F92      		push __zero_reg__
+ 190 00e0 0F92      		push __tmp_reg__
+ 191 00e2 0FB6      		in __tmp_reg__,__SREG__
+ 192 00e4 0F92      		push __tmp_reg__
+ 193 00e6 1124      		clr __zero_reg__
+ 194 00e8 2F93      		push r18
+ 195 00ea 3F93      		push r19
+ 196 00ec 4F93      		push r20
+ 197 00ee 5F93      		push r21
+ 198 00f0 6F93      		push r22
+ 199 00f2 7F93      		push r23
+ 200 00f4 8F93      		push r24
+ 201 00f6 9F93      		push r25
+ 202 00f8 AF93      		push r26
+ 203 00fa BF93      		push r27
+ 204 00fc EF93      		push r30
+ 205 00fe FF93      		push r31
+ 206               	/* prologue end (size=17) */
+ 207               	.LM30:
+ 208 0100 8091 0000 		lds r24,sw
+ 209 0104 8823      		tst r24
+ 210 0106 01F4      		brne .L19
+ 211               	.LM31:
+ 212 0108 8FEF      		ldi r24,lo8(255)
+ 213 010a 90E0      		ldi r25,hi8(255)
+ 214 010c 00C0      		rjmp .L35
+ 215               	.L19:
+ 216               	.LM32:
+ 217 010e 80EF      		ldi r24,lo8(-3856)
+ 218 0110 90EF      		ldi r25,hi8(-3856)
+ 219               	.L35:
+ 220 0112 9093 0000 		sts (line.1448)+1,r25
+ 221 0116 8093 0000 		sts line.1448,r24
+ 222               	.LM33:
+ 223 011a 8091 0000 		lds r24,line.1448
+ 224 011e 9091 0000 		lds r25,(line.1448)+1
+ 225 0122 0E94 0000 		call LED_Send_Line
+ 226               	.LM34:
+ 227 0126 8091 0000 		lds r24,comcount.1447
+ 228 012a 0E94 0000 		call LED_Set_Common
+ 229               	.LM35:
+ 230 012e 8091 0000 		lds r24,comcount.1447
+ 231 0132 8F5F      		subi r24,lo8(-(1))
+ 232 0134 8093 0000 		sts comcount.1447,r24
+ 233               	.LM36:
+ 234 0138 8430      		cpi r24,lo8(4)
+ 235 013a 01F0      		breq .L26
+ 236 013c 8530      		cpi r24,lo8(5)
+ 237 013e 04F4      		brge .L31
+ 238 0140 8230      		cpi r24,lo8(2)
+ 239 0142 01F0      		breq .L24
+ 240 0144 8330      		cpi r24,lo8(3)
+ 241 0146 04F4      		brge .L29
+ 242 0148 8130      		cpi r24,lo8(1)
+ 243 014a 01F4      		brne .L22
+ 244 014c 00C0      		rjmp .L27
+ 245               	.L31:
+ 246 014e 8630      		cpi r24,lo8(6)
+ 247 0150 01F0      		breq .L24
+ 248 0152 8630      		cpi r24,lo8(6)
+ 249 0154 04F0      		brlt .L27
+ 250 0156 8730      		cpi r24,lo8(7)
+ 251 0158 01F0      		breq .L29
+ 252 015a 8830      		cpi r24,lo8(8)
+ 253 015c 01F4      		brne .L22
+ 254 015e 00C0      		rjmp .L30
+ 255               	.L24:
+ 256               	.LM37:
+ 257 0160 80E1      		ldi r24,lo8(16)
+ 258               	.L36:
+ 259 0162 8093 0201 		sts 258,r24
+ 260 0166 00C0      		rjmp .L34
+ 261               	.L26:
+ 262               	.LM38:
+ 263 0168 80E2      		ldi r24,lo8(32)
+ 264 016a 00C0      		rjmp .L36
+ 265               	.L27:
+ 266               	.LM39:
+ 267 016c 80E3      		ldi r24,lo8(48)
+ 268 016e 00C0      		rjmp .L36
+ 269               	.L29:
+ 270               	.LM40:
+ 271 0170 1092 0201 		sts 258,__zero_reg__
+ 272 0174 00C0      		rjmp .L34
+ 273               	.L30:
+ 274               	.LM41:
+ 275 0176 80E2      		ldi r24,lo8(32)
+ 276 0178 8093 0201 		sts 258,r24
+ 277 017c 00C0      		rjmp .L33
+ 278               	.L22:
+ 279               	.LM42:
+ 280 017e 8830      		cpi r24,lo8(8)
+ 281 0180 04F0      		brlt .L34
+ 282               	.L33:
+ 283               	.LM43:
+ 284 0182 1092 0000 		sts comcount.1447,__zero_reg__
+ 285               	.L34:
+ 286               	/* epilogue: frame size=0 */
+ 287 0186 FF91      		pop r31
+ 288 0188 EF91      		pop r30
+ 289 018a BF91      		pop r27
+ 290 018c AF91      		pop r26
+ 291 018e 9F91      		pop r25
+ 292 0190 8F91      		pop r24
+ 293 0192 7F91      		pop r23
+ 294 0194 6F91      		pop r22
+ 295 0196 5F91      		pop r21
+ 296 0198 4F91      		pop r20
+ 297 019a 3F91      		pop r19
+ 298 019c 2F91      		pop r18
+ 299 019e 0F90      		pop __tmp_reg__
+ 300 01a0 0FBE      		out __SREG__,__tmp_reg__
+ 301 01a2 0F90      		pop __tmp_reg__
+ 302 01a4 1F90      		pop __zero_reg__
+ 303 01a6 1895      		reti
+ 304               	/* epilogue end (size=17) */
+ 305               	/* function __vector_17 size 101 (67) */
+ 306               	.LFE4:
+ 308               	.global	sw
+ 309               	.global	sw
+ 310               		.section .bss
+ 313               	sw:
+ 314 0000 00        		.skip 1,0
+ 315               	.global	Upchar
+ 316               		.data
+ 319               	Upchar:
+ 320 0000 FF00      		.word	255
+ 321 0002 0000      		.word	0
+ 322 0004 0000      		.word	0
+ 323 0006 0000      		.word	0
+ 324 0008 0000      		.word	0
+ 325 000a 0000      		.word	0
+ 326 000c 0000      		.word	0
+ 327 000e 0000      		.word	0
+ 328               	.global	Rightchar
+ 331               	Rightchar:
+ 332 0010 8080      		.word	-32640
+ 333 0012 8080      		.word	-32640
+ 334 0014 8080      		.word	-32640
+ 335 0016 8080      		.word	-32640
+ 336 0018 8080      		.word	-32640
+ 337 001a 8080      		.word	-32640
+ 338 001c 8080      		.word	-32640
+ 339 001e 8080      		.word	-32640
+ 340               	.global	Downchar
+ 343               	Downchar:
+ 344 0020 0000      		.word	0
+ 345 0022 0000      		.word	0
+ 346 0024 0000      		.word	0
+ 347 0026 0000      		.word	0
+ 348 0028 0000      		.word	0
+ 349 002a 0000      		.word	0
+ 350 002c 0000      		.word	0
+ 351 002e 00FF      		.word	-256
+ 352               	.global	Leftchar
+ 355               	Leftchar:
+ 356 0030 0101      		.word	257
+ 357 0032 0101      		.word	257
+ 358 0034 0101      		.word	257
+ 359 0036 0101      		.word	257
+ 360 0038 0101      		.word	257
+ 361 003a 0101      		.word	257
+ 362 003c 0101      		.word	257
+ 363 003e 0101      		.word	257
+ 364               	.global	Stopchar
+ 367               	Stopchar:
+ 368 0040 3C3C      		.word	15420
+ 369 0042 7E7E      		.word	32382
+ 370 0044 FFFF      		.word	-1
+ 371 0046 FFFF      		.word	-1
+ 372 0048 FFFF      		.word	-1
+ 373 004a FFFF      		.word	-1
+ 374 004c 7E7E      		.word	32382
+ 375 004e 3C3C      		.word	15420
+ 376               		.lcomm line.1448,2
+ 377               		.lcomm comcount.1447,1
+ 378               		.comm previous_port_j,1,1
+ 379               		.comm interrupt_edge_port_j,1,1
+ 380               		.comm led_on,1,1
+ 381               		.comm line_triggered,1,1
+ 382               		.comm xdif,2,1
+ 383               		.comm ydif,2,1
+ 432               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:3      *ABS*:0000003f __SREG__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:4      *ABS*:0000003e __SP_H__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:5      *ABS*:0000003d __SP_L__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:6      *ABS*:00000000 __tmp_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:7      *ABS*:00000001 __zero_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:20     .text:00000000 __vector_10
+                            *COM*:00000001 line_triggered
+                            *COM*:00000001 previous_port_j
+                            *COM*:00000001 interrupt_edge_port_j
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:84     .text:0000005a ioinit
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:125    .text:00000090 main
+                            *COM*:00000001 led_on
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:185    .text:000000de __vector_17
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:313    .bss:00000000 sw
+                             .bss:00000001 line.1448
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:376    .bss:00000003 comcount.1447
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:319    .data:00000000 Upchar
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:331    .data:00000010 Rightchar
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:343    .data:00000020 Downchar
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:355    .data:00000030 Leftchar
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccUSvndk.s:367    .data:00000040 Stopchar
+                            *COM*:00000002 xdif
+                            *COM*:00000002 ydif
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
+Setup_Sumo_Ports
+LED_Send_Line
+LED_Set_Common

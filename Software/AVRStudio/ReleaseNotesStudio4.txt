@@ -1,0 +1,26 @@
+Release Notes - AVR Studio(R) 4.13 (02/2007)
+--------------------------------------------
+
+* What's new?
+
+This release contains complete support for all the latest AVR(R) devices and tools.
+Includes new features and bugfixing. 
+
+* Features
+- Complete device support for AVR Dragon. See the AVR Dragon user guide for details.
+- New I/O- and Processor view. 3 differen modes makes it easier to debug complex
+peripheral configurations. Read more in the AVR Studio user guide.
+- AVR Studio 4.13 includes a technical preview of the new and improved simulator. 
+Read more in the AVR Studio user guide.
+- AVR Studio is now fully compatible with WinAVR. Former 64K Flash size compiler limit
+have been fixed. Requires WinAVR release 2007-01-02 or later.
+- New USB driver from Jungo (WinDriver USB v8.1) supports both 32- and 64-bit Microsoft
+Windows(R) XP OS.
+- AVR Studio is now fully compatible with 32-bit Microsoft Windows(R) Vista OS.
+- AVR Studio 4.13 currently does not support 64-bit Microsoft Windows(R) Vista OS.
+
+* New part support
+- AT90USB646 (JTAGICE mkII, STK500/525, AVRISP mkII, SIMULATOR, AVRASMII, AVR DRAGON)
+- AT90USB647 (JTAGICE mkII, STK500/525, AVRISP mkII, SIMULATOR, AVRASMII, AVR DRAGON)
+- AT90USB162 (JTAGICE mkII, STK500/526, AVRISP mkII, SIMULATOR, AVRASMII)
+- ATmega88P/168P (JTAGICE mkII, STK500, AVRISP mkII, SIMULATOR, AVRASMII, AVR DRAGON)

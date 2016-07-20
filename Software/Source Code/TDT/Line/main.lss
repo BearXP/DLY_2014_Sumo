@@ -1,0 +1,462 @@
+
+main.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000040  00800200  000002ca  0000035e  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000002ca  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          0000000b  00800240  00800240  0000039e  2**0
+                  ALLOC
+  3 .stab         00000414  00000000  00000000  000003a0  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  4 .stabstr      00000071  00000000  00000000  000007b4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_aranges 00000080  00000000  00000000  00000825  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_pubnames 00000146  00000000  00000000  000008a5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_info   000003ba  00000000  00000000  000009eb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_abbrev 00000207  00000000  00000000  00000da5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_line   00000488  00000000  00000000  00000fac  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_frame  000000b0  00000000  00000000  00001434  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_str    000001ab  00000000  00000000  000014e4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_loc    0000004e  00000000  00000000  0000168f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 72 00 	jmp	0xe4	; 0xe4 <__ctors_end>
+   4:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+   8:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+   c:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  10:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  14:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  18:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  1c:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  20:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  24:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  28:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  2c:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  30:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  34:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  38:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  3c:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  40:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  44:	0c 94 c0 00 	jmp	0x180	; 0x180 <__vector_17>
+  48:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  4c:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  50:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  54:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  58:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  5c:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  60:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  64:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  68:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  6c:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  70:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  74:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  78:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  7c:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  80:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  84:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  88:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  8c:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  90:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  94:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  98:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  9c:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  a0:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  a4:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  a8:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  ac:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  b0:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  b4:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  b8:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  bc:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  c0:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  c4:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  c8:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  cc:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  d0:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  d4:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  d8:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  dc:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+  e0:	0c 94 91 00 	jmp	0x122	; 0x122 <__bad_interrupt>
+
+000000e4 <__ctors_end>:
+  e4:	11 24       	eor	r1, r1
+  e6:	1f be       	out	0x3f, r1	; 63
+  e8:	cf ef       	ldi	r28, 0xFF	; 255
+  ea:	d1 e2       	ldi	r29, 0x21	; 33
+  ec:	de bf       	out	0x3e, r29	; 62
+  ee:	cd bf       	out	0x3d, r28	; 61
+
+000000f0 <__do_copy_data>:
+  f0:	12 e0       	ldi	r17, 0x02	; 2
+  f2:	a0 e0       	ldi	r26, 0x00	; 0
+  f4:	b2 e0       	ldi	r27, 0x02	; 2
+  f6:	ea ec       	ldi	r30, 0xCA	; 202
+  f8:	f2 e0       	ldi	r31, 0x02	; 2
+  fa:	00 e0       	ldi	r16, 0x00	; 0
+  fc:	0b bf       	out	0x3b, r16	; 59
+  fe:	02 c0       	rjmp	.+4      	; 0x104 <__do_copy_data+0x14>
+ 100:	07 90       	elpm	r0, Z+
+ 102:	0d 92       	st	X+, r0
+ 104:	a0 34       	cpi	r26, 0x40	; 64
+ 106:	b1 07       	cpc	r27, r17
+ 108:	d9 f7       	brne	.-10     	; 0x100 <__do_copy_data+0x10>
+
+0000010a <__do_clear_bss>:
+ 10a:	12 e0       	ldi	r17, 0x02	; 2
+ 10c:	a0 e4       	ldi	r26, 0x40	; 64
+ 10e:	b2 e0       	ldi	r27, 0x02	; 2
+ 110:	01 c0       	rjmp	.+2      	; 0x114 <.do_clear_bss_start>
+
+00000112 <.do_clear_bss_loop>:
+ 112:	1d 92       	st	X+, r1
+
+00000114 <.do_clear_bss_start>:
+ 114:	ab 34       	cpi	r26, 0x4B	; 75
+ 116:	b1 07       	cpc	r27, r17
+ 118:	e1 f7       	brne	.-8      	; 0x112 <.do_clear_bss_loop>
+ 11a:	0e 94 a7 00 	call	0x14e	; 0x14e <main>
+ 11e:	0c 94 64 01 	jmp	0x2c8	; 0x2c8 <_exit>
+
+00000122 <__bad_interrupt>:
+ 122:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000126 <ioinit>:
+	
+}
+
+void ioinit (void)			/* Note [6] */
+{
+ 126:	10 92 80 00 	sts	0x0080, r1
+    /* Normal mode */
+    TCCR1A = 0;
+	
+    /*
+     * Start timer 1.
+     */
+    TCCR1B = _BV(CS11)|_BV(CS10); //  1/64 prescaler    
+ 12a:	e1 e8       	ldi	r30, 0x81	; 129
+ 12c:	f0 e0       	ldi	r31, 0x00	; 0
+ 12e:	83 e0       	ldi	r24, 0x03	; 3
+ 130:	80 83       	st	Z, r24
+	TCCR1B |= _BV(WGM12); //Clear timer on Compare match with OCR1A
+ 132:	80 81       	ld	r24, Z
+ 134:	88 60       	ori	r24, 0x08	; 8
+ 136:	80 83       	st	Z, r24
+
+    /* Enable timer 1 overflow interrupt. */
+    TIMSK1 = _BV (OCIE1A);
+ 138:	82 e0       	ldi	r24, 0x02	; 2
+ 13a:	80 93 6f 00 	sts	0x006F, r24
+	
+	OCR1A = 0x030D;    	//0x1FFF = 30Hz  @ 1/8 prescaler
+ 13e:	8d e0       	ldi	r24, 0x0D	; 13
+ 140:	93 e0       	ldi	r25, 0x03	; 3
+ 142:	90 93 89 00 	sts	0x0089, r25
+ 146:	80 93 88 00 	sts	0x0088, r24
+						//0x7A12 = 1Hz   @ 1/64 prescaler
+						//0x186A = 5Hz   @ 1/64 prescaler
+						//0x0C35 = 10Hz   @ 1/64 prescaler
+						//0x061A = 20Hz   @ 1/64 prescaler
+						//0x0411 = 30Hz   @ 1/64 prescaler
+						//0x037C = 30Hz   @ 1/64 prescaler
+						//0x030D = 40Hz   @ 1/64 prescaler
+						
+	//Setup Pin Change Inerrupt
+	//PCICR = _BV(PCIE1);   //enable Pin Change int 1 for PCINT 8-15  (11 for X1)
+	//PCMSK1 = _BV(PCINT9)|_BV(PCINT10)|_BV(PCINT11)|_BV(PCINT12)|_BV(PCINT13)|_BV(PCINT14)|_BV(PCINT15);  //mouse and line sensors
+	
+    sei ();
+ 14a:	78 94       	sei
+ 14c:	08 95       	ret
+
+0000014e <main>:
+}
+
+
+int main(void)
+{			
+ 14e:	81 e0       	ldi	r24, 0x01	; 1
+ 150:	80 93 43 02 	sts	0x0243, r24
+	char sw = 0;
+	led_on = 1;
+	line_triggered = 1;
+ 154:	80 93 47 02 	sts	0x0247, r24
+	Setup_Sumo_Ports();
+ 158:	0e 94 04 01 	call	0x208	; 0x208 <Setup_Sumo_Ports>
+	ioinit ();
+ 15c:	0e 94 93 00 	call	0x126	; 0x126 <ioinit>
+	
+	//setup pin change edges
+	interrupt_edge_port_j = 0x7F; //first seven bits for mouse and 3xline
+ 160:	8f e7       	ldi	r24, 0x7F	; 127
+ 162:	80 93 4a 02 	sts	0x024A, r24
+	previous_port_j = 0x00;
+ 166:	10 92 46 02 	sts	0x0246, r1
+ 16a:	91 e0       	ldi	r25, 0x01	; 1
+
+	while(1)
+	{		
+		if( LINE_PORT1&_BV(LINE_1)) line_triggered = 1;
+ 16c:	80 91 03 01 	lds	r24, 0x0103
+ 170:	84 ff       	sbrs	r24, 4
+ 172:	03 c0       	rjmp	.+6      	; 0x17a <main+0x2c>
+ 174:	90 93 47 02 	sts	0x0247, r25
+ 178:	f9 cf       	rjmp	.-14     	; 0x16c <main+0x1e>
+		else line_triggered = 0;					
+ 17a:	10 92 47 02 	sts	0x0247, r1
+ 17e:	f6 cf       	rjmp	.-20     	; 0x16c <main+0x1e>
+
+00000180 <__vector_17>:
+ 180:	1f 92       	push	r1
+ 182:	0f 92       	push	r0
+ 184:	0f b6       	in	r0, 0x3f	; 63
+ 186:	0f 92       	push	r0
+ 188:	11 24       	eor	r1, r1
+ 18a:	2f 93       	push	r18
+ 18c:	3f 93       	push	r19
+ 18e:	4f 93       	push	r20
+ 190:	5f 93       	push	r21
+ 192:	6f 93       	push	r22
+ 194:	7f 93       	push	r23
+ 196:	8f 93       	push	r24
+ 198:	9f 93       	push	r25
+ 19a:	af 93       	push	r26
+ 19c:	bf 93       	push	r27
+ 19e:	ef 93       	push	r30
+ 1a0:	ff 93       	push	r31
+ 1a2:	80 91 47 02 	lds	r24, 0x0247
+ 1a6:	88 23       	and	r24, r24
+ 1a8:	39 f0       	breq	.+14     	; 0x1b8 <__vector_17+0x38>
+ 1aa:	8f ef       	ldi	r24, 0xFF	; 255
+ 1ac:	9f ef       	ldi	r25, 0xFF	; 255
+ 1ae:	90 93 41 02 	sts	0x0241, r25
+ 1b2:	80 93 40 02 	sts	0x0240, r24
+ 1b6:	04 c0       	rjmp	.+8      	; 0x1c0 <__vector_17+0x40>
+ 1b8:	10 92 41 02 	sts	0x0241, r1
+ 1bc:	10 92 40 02 	sts	0x0240, r1
+ 1c0:	80 91 40 02 	lds	r24, 0x0240
+ 1c4:	90 91 41 02 	lds	r25, 0x0241
+ 1c8:	0e 94 26 01 	call	0x24c	; 0x24c <LED_Send_Line>
+ 1cc:	80 91 42 02 	lds	r24, 0x0242
+ 1d0:	0e 94 53 01 	call	0x2a6	; 0x2a6 <LED_Set_Common>
+ 1d4:	80 91 42 02 	lds	r24, 0x0242
+ 1d8:	8f 5f       	subi	r24, 0xFF	; 255
+ 1da:	80 93 42 02 	sts	0x0242, r24
+ 1de:	88 30       	cpi	r24, 0x08	; 8
+ 1e0:	14 f0       	brlt	.+4      	; 0x1e6 <__vector_17+0x66>
+ 1e2:	10 92 42 02 	sts	0x0242, r1
+ 1e6:	ff 91       	pop	r31
+ 1e8:	ef 91       	pop	r30
+ 1ea:	bf 91       	pop	r27
+ 1ec:	af 91       	pop	r26
+ 1ee:	9f 91       	pop	r25
+ 1f0:	8f 91       	pop	r24
+ 1f2:	7f 91       	pop	r23
+ 1f4:	6f 91       	pop	r22
+ 1f6:	5f 91       	pop	r21
+ 1f8:	4f 91       	pop	r20
+ 1fa:	3f 91       	pop	r19
+ 1fc:	2f 91       	pop	r18
+ 1fe:	0f 90       	pop	r0
+ 200:	0f be       	out	0x3f, r0	; 63
+ 202:	0f 90       	pop	r0
+ 204:	1f 90       	pop	r1
+ 206:	18 95       	reti
+
+00000208 <Setup_Sumo_Ports>:
+
+
+
+void Setup_Sumo_Ports(void)
+{
+ 208:	90 ef       	ldi	r25, 0xF0	; 240
+ 20a:	9a b9       	out	0x0a, r25	; 10
+	//PORT A
+	//SRAM Address bits.  Low Byte
+
+	//PORT B
+	//SPI BUS
+
+	//PORT C
+	//SRAM Addres bits.  High Byte
+
+	//PORT D
+	//I2C.  USART2.  LED Matrix CSEL and DSEL
+	DDRD = _BV(PD4)|_BV(PD5)|_BV(PD6)|_BV(PD7);
+	PORTD &= 0x0F;
+ 20c:	8b b1       	in	r24, 0x0b	; 11
+ 20e:	8f 70       	andi	r24, 0x0F	; 15
+ 210:	8b b9       	out	0x0b, r24	; 11
+
+	//PORT E
+	//USART1.  SD Card inputs.  Motor2 PWM.  Sound PWM
+
+	//PORT F
+	//Extra ADC.  JTAG
+
+	//PORT G
+	//SRAM control.  SRAM A16 bit.  Timing oscillator
+
+	//PORT H
+	//Mouse (non interrupt).  Motor1 PWM.  Switch inputs
+	DDRH = _BV(PD4)|_BV(PD5);
+ 212:	80 e3       	ldi	r24, 0x30	; 48
+ 214:	80 93 01 01 	sts	0x0101, r24
+
+	//PORT J
+	//Mouse (interrupts).  Line inputs (interrupts).  3v3 enable.
+	DDRJ = _BV(PJ7);
+ 218:	80 e8       	ldi	r24, 0x80	; 128
+ 21a:	80 93 04 01 	sts	0x0104, r24
+	PORTJ |= _BV(PJ7);   //turn on 3.3V
+ 21e:	e5 e0       	ldi	r30, 0x05	; 5
+ 220:	f1 e0       	ldi	r31, 0x01	; 1
+ 222:	80 81       	ld	r24, Z
+ 224:	80 68       	ori	r24, 0x80	; 128
+ 226:	80 83       	st	Z, r24
+
+	//PORT K
+	//Voltage sense.  IR range ADC.  Line 4 input (interrupt).
+
+	//PORT L
+	//Bump inputs.  LED Matrix control
+	DDRL = _BV(PD4)|_BV(PD5)|_BV(PD6)|_BV(PD7);
+ 228:	90 93 0a 01 	sts	0x010A, r25
+	PORTL &= 0x0F;
+ 22c:	eb e0       	ldi	r30, 0x0B	; 11
+ 22e:	f1 e0       	ldi	r31, 0x01	; 1
+ 230:	80 81       	ld	r24, Z
+ 232:	8f 70       	andi	r24, 0x0F	; 15
+ 234:	80 83       	st	Z, r24
+ 236:	08 95       	ret
+
+00000238 <Get_Switch>:
+#include "sumo_util.h"
+#include "sumo_ports.h"
+
+uint8_t Get_Switch(uint8_t sw)
+{
+ 238:	90 91 00 01 	lds	r25, 0x0100
+ 23c:	82 95       	swap	r24
+ 23e:	88 0f       	add	r24, r24
+ 240:	88 0f       	add	r24, r24
+ 242:	80 7c       	andi	r24, 0xC0	; 192
+ 244:	98 23       	and	r25, r24
+	uint8_t swin = SW_PORT;
+	return (swin & (sw<<6));
+}
+ 246:	89 2f       	mov	r24, r25
+ 248:	99 27       	eor	r25, r25
+ 24a:	08 95       	ret
+
+0000024c <LED_Send_Line>:
+
+
+
+void LED_Send_Line(uint16_t line)  //clock in 16 bits into segment driver and latch
+{
+ 24c:	9c 01       	movw	r18, r24
+ 24e:	40 e0       	ldi	r20, 0x00	; 0
+ 250:	50 e0       	ldi	r21, 0x00	; 0
+	
+	for(uint16_t i=0;i<16;i++) //LSB first
+	{
+		if((line & 0x01) > 0) //check MSB
+ 252:	20 ff       	sbrs	r18, 0
+ 254:	04 c0       	rjmp	.+8      	; 0x25e <LED_Send_Line+0x12>
+		{
+			LED_PORT2 |= _BV(LED_SIN);			
+ 256:	80 91 0b 01 	lds	r24, 0x010B
+ 25a:	80 62       	ori	r24, 0x20	; 32
+ 25c:	03 c0       	rjmp	.+6      	; 0x264 <LED_Send_Line+0x18>
+		}
+		else
+		{
+			LED_PORT2 &= ~(_BV(LED_SIN));
+ 25e:	80 91 0b 01 	lds	r24, 0x010B
+ 262:	8f 7d       	andi	r24, 0xDF	; 223
+ 264:	80 93 0b 01 	sts	0x010B, r24
+		}
+		line >>= 1;  //shift data right one	
+		//NOP;
+		
+		//clock in bit
+		LED_PORT2 |= _BV(LED_SCLK);  //set clock high
+ 268:	80 91 0b 01 	lds	r24, 0x010B
+ 26c:	80 61       	ori	r24, 0x10	; 16
+ 26e:	80 93 0b 01 	sts	0x010B, r24
+		NOP;
+ 272:	00 00       	nop
+		LED_PORT2 &= ~(_BV(LED_SCLK)); //set clock low		
+ 274:	80 91 0b 01 	lds	r24, 0x010B
+ 278:	8f 7e       	andi	r24, 0xEF	; 239
+ 27a:	80 93 0b 01 	sts	0x010B, r24
+ 27e:	4f 5f       	subi	r20, 0xFF	; 255
+ 280:	5f 4f       	sbci	r21, 0xFF	; 255
+ 282:	40 31       	cpi	r20, 0x10	; 16
+ 284:	51 05       	cpc	r21, r1
+ 286:	19 f0       	breq	.+6      	; 0x28e <LED_Send_Line+0x42>
+ 288:	36 95       	lsr	r19
+ 28a:	27 95       	ror	r18
+ 28c:	e2 cf       	rjmp	.-60     	; 0x252 <LED_Send_Line+0x6>
+		
+	}
+	
+	//latch in line
+		LED_PORT2 |= _BV(LED_LATCH);  //set clock high
+ 28e:	80 91 0b 01 	lds	r24, 0x010B
+ 292:	80 64       	ori	r24, 0x40	; 64
+ 294:	80 93 0b 01 	sts	0x010B, r24
+		NOP;
+ 298:	00 00       	nop
+		LED_PORT2 &= ~(_BV(LED_LATCH)); //set clock low	
+ 29a:	80 91 0b 01 	lds	r24, 0x010B
+ 29e:	8f 7b       	andi	r24, 0xBF	; 191
+ 2a0:	80 93 0b 01 	sts	0x010B, r24
+ 2a4:	08 95       	ret
+
+000002a6 <LED_Set_Common>:
+}
+
+
+void LED_Set_Common(uint8_t com)	//set the common driver  Range 0-7
+{
+ 2a6:	eb e0       	ldi	r30, 0x0B	; 11
+ 2a8:	f1 e0       	ldi	r31, 0x01	; 1
+ 2aa:	90 81       	ld	r25, Z
+ 2ac:	90 68       	ori	r25, 0x80	; 128
+ 2ae:	90 83       	st	Z, r25
+	LED_PORT2 |= _BV(LED_BLANK);  //Blank LEDs
+				
+		com <<= 4;   //shift so it matches bits on port
+		LED_PORT1 &= ~(_BV(LED_CSEL0)|_BV(LED_CSEL1)|_BV(LED_CSEL2));  //clear CSEL bits
+ 2b0:	9b b1       	in	r25, 0x0b	; 11
+ 2b2:	9f 78       	andi	r25, 0x8F	; 143
+ 2b4:	9b b9       	out	0x0b, r25	; 11
+		LED_PORT1 |= com;  //set new CSEL values
+ 2b6:	9b b1       	in	r25, 0x0b	; 11
+ 2b8:	82 95       	swap	r24
+ 2ba:	80 7f       	andi	r24, 0xF0	; 240
+ 2bc:	98 2b       	or	r25, r24
+ 2be:	9b b9       	out	0x0b, r25	; 11
+		
+	LED_PORT2 &= ~(_BV(LED_BLANK)); //Un-blank LEDS
+ 2c0:	80 81       	ld	r24, Z
+ 2c2:	8f 77       	andi	r24, 0x7F	; 127
+ 2c4:	80 83       	st	Z, r24
+ 2c6:	08 95       	ret
+
+000002c8 <_exit>:
+ 2c8:	ff cf       	rjmp	.-2      	; 0x2c8 <_exit>

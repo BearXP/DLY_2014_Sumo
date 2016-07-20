@@ -1,0 +1,13 @@
+The AVR Studio© Software Development Kit makes it possible
+to develop seamless extensions to AVR Studio 4.
+
+To receive the SDK you must:
+
+1. Register online
+2. Return the SDK License Agreement 
+
+After receiving the inscribed copy of the SDK License Agreement,
+the SDK is sent to the registered address, either by e-mail or
+by post. 
+
+Register here: http://www.atmel.no/SDK/

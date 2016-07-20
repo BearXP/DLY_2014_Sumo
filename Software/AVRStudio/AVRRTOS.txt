@@ -1,0 +1,27 @@
+ATAVRRTOS contains the complete source code of Micrium uC/OS-II
+Real Time Operating System. Also includes is the Kernel Aware plug-ins
+for AVR Studio and Micrium supported versions for ATmega128/2561.
+With this kit you can write complex uC/OS-II based code and debug
+within the AVR Studio framework. Support is included for 
+STK500/501/503 and JTAGICE mkII.
+
+Micrium uC/OS-II is a high quality portable, ROMable, scalable,
+preemptive real-time, deterministic, multitasking kernel.
+It is certified for a wide range of applications, and provides
+the following services:
+
+- Semaphores 
+- Event Flags
+- Mutual Exclusion Semaphores (to reduce priority inversions)
+- Message Mailboxes
+- Message Queues
+- Task Management
+- Time Management
+- Fixed Sized Memory
+- Block Management
+
+ATAVRRTOS contains a book and CD-ROM with software.
+
+Find more information here: http://www.micrium.com/atmel/index.html
+
+Ordering code: ATAVRRTOS

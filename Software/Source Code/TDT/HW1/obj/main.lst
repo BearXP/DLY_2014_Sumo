@@ -1,0 +1,60 @@
+   1               		.file	"main.c"
+   2               		.arch atmega2560
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  17               	.Ltext0:
+  18               	.global	main
+  20               	main:
+  21               	.LFB2:
+  22               	.LM1:
+  23               	/* prologue: frame size=0 */
+  24               	/* prologue end (size=0) */
+  25               	.LM2:
+  26               	/* #APP */
+  27 0000 F894      		cli
+  28               	.LM3:
+  29               	/* #NOAPP */
+  30 0002 8FEF      		ldi r24,lo8(-1)
+  31 0004 8AB9      		out 42-0x20,r24
+  32               	.LM4:
+  33 0006 1BB8      		out 43-0x20,__zero_reg__
+  34               	.LM5:
+  35 0008 1092 0101 		sts 257,__zero_reg__
+  36 000c 20E1      		ldi r18,lo8(16)
+  37 000e 80E2      		ldi r24,lo8(32)
+  38 0010 90E8      		ldi r25,lo8(-128)
+  39               	.L2:
+  40               	.LM6:
+  41 0012 2BB9      		out 43-0x20,r18
+  42               	.LM7:
+  43 0014 8BB9      		out 43-0x20,r24
+  44               	.LM8:
+  45 0016 8BB9      		out 43-0x20,r24
+  46               	.LM9:
+  47 0018 9BB9      		out 43-0x20,r25
+  48               	.LM10:
+  49 001a 1BB8      		out 43-0x20,__zero_reg__
+  50 001c 00C0      		rjmp .L2
+  51               	/* epilogue: frame size=0 */
+  52               	/* epilogue: noreturn */
+  53               	/* epilogue end (size=0) */
+  54               	/* function main size 16 (16) */
+  55               	.LFE2:
+  81               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccQszJLI.s:3      *ABS*:0000003f __SREG__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccQszJLI.s:4      *ABS*:0000003e __SP_H__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccQszJLI.s:5      *ABS*:0000003d __SP_L__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccQszJLI.s:6      *ABS*:00000000 __tmp_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccQszJLI.s:7      *ABS*:00000001 __zero_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccQszJLI.s:20     .text:00000000 main
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss

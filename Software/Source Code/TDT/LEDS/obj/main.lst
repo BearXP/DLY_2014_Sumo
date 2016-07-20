@@ -1,0 +1,221 @@
+   1               		.file	"main.c"
+   2               		.arch atmega2560
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  17               	.Ltext0:
+  18               	.global	ioinit
+  20               	ioinit:
+  21               	.LFB3:
+  22               	.LM1:
+  23               	/* prologue: frame size=0 */
+  24               	/* prologue end (size=0) */
+  25               	.LM2:
+  26 0000 1092 8000 		sts 128,__zero_reg__
+  27               	.LM3:
+  28 0004 E1E8      		ldi r30,lo8(129)
+  29 0006 F0E0      		ldi r31,hi8(129)
+  30 0008 83E0      		ldi r24,lo8(3)
+  31 000a 8083      		st Z,r24
+  32               	.LM4:
+  33 000c 8081      		ld r24,Z
+  34 000e 8860      		ori r24,lo8(8)
+  35 0010 8083      		st Z,r24
+  36               	.LM5:
+  37 0012 82E0      		ldi r24,lo8(2)
+  38 0014 8093 6F00 		sts 111,r24
+  39               	.LM6:
+  40 0018 8DE0      		ldi r24,lo8(781)
+  41 001a 93E0      		ldi r25,hi8(781)
+  42 001c 9093 8900 		sts (136)+1,r25
+  43 0020 8093 8800 		sts 136,r24
+  44               	.LM7:
+  45               	/* #APP */
+  46 0024 7894      		sei
+  47               	/* #NOAPP */
+  48               	/* epilogue: frame size=0 */
+  49 0026 0895      		ret
+  50               	/* epilogue end (size=1) */
+  51               	/* function ioinit size 21 (20) */
+  52               	.LFE3:
+  54               	.global	main
+  56               	main:
+  57               	.LFB4:
+  58               	.LM8:
+  59               	/* prologue: frame size=0 */
+  60 0028 1F93      		push r17
+  61               	/* prologue end (size=1) */
+  62               	.LM9:
+  63 002a 1092 0000 		sts led_dir,__zero_reg__
+  64               	.LM10:
+  65 002e 0E94 0000 		call Setup_Sumo_Ports
+  66               	.LM11:
+  67 0032 0E94 0000 		call ioinit
+  68               	.L13:
+  69               	.LM12:
+  70 0036 81E0      		ldi r24,lo8(1)
+  71 0038 0E94 0000 		call Get_Switch
+  72 003c 182F      		mov r17,r24
+  73 003e 82E0      		ldi r24,lo8(2)
+  74 0040 0E94 0000 		call Get_Switch
+  75 0044 182B      		or r17,r24
+  76 0046 01F0      		breq .L5
+  77 0048 1092 0000 		sts led_dir,__zero_reg__
+  78 004c 00C0      		rjmp .L13
+  79               	.L5:
+  80               	.LM13:
+  81 004e 81E0      		ldi r24,lo8(1)
+  82 0050 8093 0000 		sts led_dir,r24
+  83 0054 00C0      		rjmp .L13
+  84               	/* epilogue: frame size=0 */
+  85               	/* epilogue: noreturn */
+  86               	/* epilogue end (size=0) */
+  87               	/* function main size 24 (23) */
+  88               	.LFE4:
+  90               	.global	__vector_17
+  92               	__vector_17:
+  93               	.LFB2:
+  94               	.LM14:
+  95               	/* prologue: frame size=0 */
+  96 0056 1F92      		push __zero_reg__
+  97 0058 0F92      		push __tmp_reg__
+  98 005a 0FB6      		in __tmp_reg__,__SREG__
+  99 005c 0F92      		push __tmp_reg__
+ 100 005e 1124      		clr __zero_reg__
+ 101 0060 2F93      		push r18
+ 102 0062 3F93      		push r19
+ 103 0064 4F93      		push r20
+ 104 0066 5F93      		push r21
+ 105 0068 6F93      		push r22
+ 106 006a 7F93      		push r23
+ 107 006c 8F93      		push r24
+ 108 006e 9F93      		push r25
+ 109 0070 AF93      		push r26
+ 110 0072 BF93      		push r27
+ 111 0074 EF93      		push r30
+ 112 0076 FF93      		push r31
+ 113               	/* prologue end (size=17) */
+ 114               	.LM15:
+ 115 0078 8091 0000 		lds r24,comcount.1303
+ 116 007c 8330      		cpi r24,lo8(3)
+ 117 007e 01F0      		breq .L19
+ 118               	.LM16:
+ 119 0080 8430      		cpi r24,lo8(4)
+ 120 0082 04F4      		brge .L24
+ 121 0084 8130      		cpi r24,lo8(1)
+ 122 0086 01F0      		breq .L17
+ 123 0088 8230      		cpi r24,lo8(2)
+ 124 008a 04F4      		brge .L20
+ 125 008c 8823      		tst r24
+ 126 008e 01F0      		breq .L20
+ 127 0090 00C0      		rjmp .L15
+ 128               	.L24:
+ 129 0092 8530      		cpi r24,lo8(5)
+ 130 0094 01F0      		breq .L21
+ 131 0096 8530      		cpi r24,lo8(5)
+ 132 0098 04F0      		brlt .L20
+ 133 009a 8630      		cpi r24,lo8(6)
+ 134 009c 01F0      		breq .L22
+ 135 009e 8730      		cpi r24,lo8(7)
+ 136 00a0 01F4      		brne .L15
+ 137 00a2 00C0      		rjmp .L23
+ 138               	.L17:
+ 139               	.LM17:
+ 140 00a4 84EA      		ldi r24,lo8(-32604)
+ 141 00a6 90E8      		ldi r25,hi8(-32604)
+ 142 00a8 00C0      		rjmp .L28
+ 143               	.L19:
+ 144               	.LM18:
+ 145 00aa 80E8      		ldi r24,lo8(-24448)
+ 146 00ac 90EA      		ldi r25,hi8(-24448)
+ 147 00ae 00C0      		rjmp .L28
+ 148               	.L20:
+ 149               	.LM19:
+ 150 00b0 8CEB      		ldi r24,lo8(-17220)
+ 151 00b2 9CEB      		ldi r25,hi8(-17220)
+ 152 00b4 00C0      		rjmp .L28
+ 153               	.L21:
+ 154               	.LM20:
+ 155 00b6 84E8      		ldi r24,lo8(-32636)
+ 156 00b8 90E8      		ldi r25,hi8(-32636)
+ 157 00ba 00C0      		rjmp .L28
+ 158               	.L22:
+ 159               	.LM21:
+ 160 00bc 8CEB      		ldi r24,lo8(-17988)
+ 161 00be 99EB      		ldi r25,hi8(-17988)
+ 162 00c0 00C0      		rjmp .L28
+ 163               	.L23:
+ 164               	.LM22:
+ 165 00c2 84E8      		ldi r24,lo8(-20604)
+ 166 00c4 9FEA      		ldi r25,hi8(-20604)
+ 167               	.L28:
+ 168 00c6 9093 0000 		sts (line.1304)+1,r25
+ 169 00ca 8093 0000 		sts line.1304,r24
+ 170               	.L15:
+ 171               	.LM23:
+ 172 00ce 8091 0000 		lds r24,line.1304
+ 173 00d2 9091 0000 		lds r25,(line.1304)+1
+ 174 00d6 0E94 0000 		call LED_Send_Line
+ 175               	.LM24:
+ 176 00da 8091 0000 		lds r24,comcount.1303
+ 177 00de 0E94 0000 		call LED_Set_Common
+ 178               	.LM25:
+ 179 00e2 8091 0000 		lds r24,comcount.1303
+ 180 00e6 8F5F      		subi r24,lo8(-(1))
+ 181 00e8 8093 0000 		sts comcount.1303,r24
+ 182               	.LM26:
+ 183 00ec 8830      		cpi r24,lo8(8)
+ 184 00ee 04F0      		brlt .L27
+ 185               	.LM27:
+ 186 00f0 1092 0000 		sts comcount.1303,__zero_reg__
+ 187               	.L27:
+ 188               	/* epilogue: frame size=0 */
+ 189 00f4 FF91      		pop r31
+ 190 00f6 EF91      		pop r30
+ 191 00f8 BF91      		pop r27
+ 192 00fa AF91      		pop r26
+ 193 00fc 9F91      		pop r25
+ 194 00fe 8F91      		pop r24
+ 195 0100 7F91      		pop r23
+ 196 0102 6F91      		pop r22
+ 197 0104 5F91      		pop r21
+ 198 0106 4F91      		pop r20
+ 199 0108 3F91      		pop r19
+ 200 010a 2F91      		pop r18
+ 201 010c 0F90      		pop __tmp_reg__
+ 202 010e 0FBE      		out __SREG__,__tmp_reg__
+ 203 0110 0F90      		pop __tmp_reg__
+ 204 0112 1F90      		pop __zero_reg__
+ 205 0114 1895      		reti
+ 206               	/* epilogue end (size=17) */
+ 207               	/* function __vector_17 size 96 (62) */
+ 208               	.LFE2:
+ 210               		.lcomm line.1304,2
+ 211               		.lcomm comcount.1303,1
+ 212               		.comm led_dir,1,1
+ 253               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccVqCz2g.s:3      *ABS*:0000003f __SREG__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccVqCz2g.s:4      *ABS*:0000003e __SP_H__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccVqCz2g.s:5      *ABS*:0000003d __SP_L__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccVqCz2g.s:6      *ABS*:00000000 __tmp_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccVqCz2g.s:7      *ABS*:00000001 __zero_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccVqCz2g.s:20     .text:00000000 ioinit
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccVqCz2g.s:56     .text:00000028 main
+                            *COM*:00000001 led_dir
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccVqCz2g.s:92     .text:00000056 __vector_17
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccVqCz2g.s:210    .bss:00000002 comcount.1303
+                             .bss:00000000 line.1304
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
+Setup_Sumo_Ports
+Get_Switch
+LED_Send_Line
+LED_Set_Common

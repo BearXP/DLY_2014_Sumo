@@ -1,0 +1,47 @@
+   1               		.file	"sumo_util.c"
+   2               		.arch atmega2560
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  17               	.Ltext0:
+  18               	.global	Get_Switch
+  20               	Get_Switch:
+  21               	.LFB2:
+  22               	.LM1:
+  23               	/* prologue: frame size=0 */
+  24               	/* prologue end (size=0) */
+  25               	.LVL0:
+  26               	.LM2:
+  27 0000 9091 0001 		lds r25,256
+  28               	.LVL1:
+  29 0004 8295      		swap r24
+  30 0006 880F      		lsl r24
+  31 0008 880F      		lsl r24
+  32 000a 807C      		andi r24,0xc0
+  33               	.LVL2:
+  34 000c 9823      		and r25,r24
+  35               	.LM3:
+  36 000e 892F      		mov r24,r25
+  37 0010 9927      		clr r25
+  38               	/* epilogue: frame size=0 */
+  39 0012 0895      		ret
+  40               	/* epilogue end (size=1) */
+  41               	/* function Get_Switch size 10 (9) */
+  42               	.LFE2:
+  68               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 sumo_util.c
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAlnJYq.s:3      *ABS*:0000003f __SREG__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAlnJYq.s:4      *ABS*:0000003e __SP_H__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAlnJYq.s:5      *ABS*:0000003d __SP_L__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAlnJYq.s:6      *ABS*:00000000 __tmp_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAlnJYq.s:7      *ABS*:00000001 __zero_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccAlnJYq.s:20     .text:00000000 Get_Switch
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss

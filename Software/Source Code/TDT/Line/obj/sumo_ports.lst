@@ -1,0 +1,61 @@
+   1               		.file	"sumo_ports.c"
+   2               		.arch atmega2560
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  17               	.Ltext0:
+  18               	.global	Setup_Sumo_Ports
+  20               	Setup_Sumo_Ports:
+  21               	.LFB2:
+  22               	.LM1:
+  23               	/* prologue: frame size=0 */
+  24               	/* prologue end (size=0) */
+  25               	.LM2:
+  26 0000 90EF      		ldi r25,lo8(-16)
+  27 0002 9AB9      		out 42-0x20,r25
+  28               	.LM3:
+  29 0004 8BB1      		in r24,43-0x20
+  30 0006 8F70      		andi r24,lo8(15)
+  31 0008 8BB9      		out 43-0x20,r24
+  32               	.LM4:
+  33 000a 80E3      		ldi r24,lo8(48)
+  34 000c 8093 0101 		sts 257,r24
+  35               	.LM5:
+  36 0010 80E8      		ldi r24,lo8(-128)
+  37 0012 8093 0401 		sts 260,r24
+  38               	.LM6:
+  39 0016 E5E0      		ldi r30,lo8(261)
+  40 0018 F1E0      		ldi r31,hi8(261)
+  41 001a 8081      		ld r24,Z
+  42 001c 8068      		ori r24,lo8(-128)
+  43 001e 8083      		st Z,r24
+  44               	.LM7:
+  45 0020 9093 0A01 		sts 266,r25
+  46               	.LM8:
+  47 0024 EBE0      		ldi r30,lo8(267)
+  48 0026 F1E0      		ldi r31,hi8(267)
+  49 0028 8081      		ld r24,Z
+  50 002a 8F70      		andi r24,lo8(15)
+  51 002c 8083      		st Z,r24
+  52               	/* epilogue: frame size=0 */
+  53 002e 0895      		ret
+  54               	/* epilogue end (size=1) */
+  55               	/* function Setup_Sumo_Ports size 24 (23) */
+  56               	.LFE2:
+  82               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 sumo_ports.c
+C:\DOCUME~1\TT\LOCALS~1\Temp/cc2ZWLwn.s:3      *ABS*:0000003f __SREG__
+C:\DOCUME~1\TT\LOCALS~1\Temp/cc2ZWLwn.s:4      *ABS*:0000003e __SP_H__
+C:\DOCUME~1\TT\LOCALS~1\Temp/cc2ZWLwn.s:5      *ABS*:0000003d __SP_L__
+C:\DOCUME~1\TT\LOCALS~1\Temp/cc2ZWLwn.s:6      *ABS*:00000000 __tmp_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/cc2ZWLwn.s:7      *ABS*:00000001 __zero_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/cc2ZWLwn.s:20     .text:00000000 Setup_Sumo_Ports
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss

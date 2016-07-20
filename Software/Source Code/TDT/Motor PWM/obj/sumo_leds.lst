@@ -1,0 +1,128 @@
+   1               		.file	"sumo_leds.c"
+   2               		.arch atmega2560
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  17               	.Ltext0:
+  18               	.global	LED_Send_Line
+  20               	LED_Send_Line:
+  21               	.LFB2:
+  22               	.LM1:
+  23               	/* prologue: frame size=0 */
+  24               	/* prologue end (size=0) */
+  25               	.LVL0:
+  26 0000 9C01      		movw r18,r24
+  27 0002 40E0      		ldi r20,lo8(0)
+  28 0004 50E0      		ldi r21,hi8(0)
+  29               	.LVL1:
+  30               	.LVL2:
+  31               	.L2:
+  32               	.LBB2:
+  33               	.LM2:
+  34 0006 20FF      		sbrs r18,0
+  35 0008 00C0      		rjmp .L3
+  36               	.LM3:
+  37 000a 8091 0B01 		lds r24,267
+  38 000e 8062      		ori r24,lo8(32)
+  39 0010 00C0      		rjmp .L9
+  40               	.LVL3:
+  41               	.L3:
+  42               	.LM4:
+  43 0012 8091 0B01 		lds r24,267
+  44 0016 8F7D      		andi r24,lo8(-33)
+  45               	.L9:
+  46 0018 8093 0B01 		sts 267,r24
+  47               	.LM5:
+  48 001c 8091 0B01 		lds r24,267
+  49 0020 8061      		ori r24,lo8(16)
+  50 0022 8093 0B01 		sts 267,r24
+  51               	.LM6:
+  52               	/* #APP */
+  53 0026 0000      		nop
+  54               		
+  55               	.LM7:
+  56               	/* #NOAPP */
+  57 0028 8091 0B01 		lds r24,267
+  58 002c 8F7E      		andi r24,lo8(-17)
+  59 002e 8093 0B01 		sts 267,r24
+  60               	.LM8:
+  61 0032 4F5F      		subi r20,lo8(-(1))
+  62 0034 5F4F      		sbci r21,hi8(-(1))
+  63 0036 4031      		cpi r20,16
+  64 0038 5105      		cpc r21,__zero_reg__
+  65 003a 01F0      		breq .L6
+  66               	.LM9:
+  67 003c 3695      		lsr r19
+  68 003e 2795      		ror r18
+  69 0040 00C0      		rjmp .L2
+  70               	.L6:
+  71               	.LBE2:
+  72               	.LM10:
+  73 0042 8091 0B01 		lds r24,267
+  74 0046 8064      		ori r24,lo8(64)
+  75 0048 8093 0B01 		sts 267,r24
+  76               	.LM11:
+  77               	/* #APP */
+  78 004c 0000      		nop
+  79               		
+  80               	.LM12:
+  81               	/* #NOAPP */
+  82 004e 8091 0B01 		lds r24,267
+  83 0052 8F7B      		andi r24,lo8(-65)
+  84 0054 8093 0B01 		sts 267,r24
+  85               	/* epilogue: frame size=0 */
+  86 0058 0895      		ret
+  87               	/* epilogue end (size=1) */
+  88               	/* function LED_Send_Line size 51 (50) */
+  89               	.LFE2:
+  91               	.global	LED_Set_Common
+  93               	LED_Set_Common:
+  94               	.LFB3:
+  95               	.LM13:
+  96               	/* prologue: frame size=0 */
+  97               	/* prologue end (size=0) */
+  98               	.LVL4:
+  99               	.LM14:
+ 100 005a EBE0      		ldi r30,lo8(267)
+ 101 005c F1E0      		ldi r31,hi8(267)
+ 102 005e 9081      		ld r25,Z
+ 103 0060 9068      		ori r25,lo8(-128)
+ 104 0062 9083      		st Z,r25
+ 105               	.LM15:
+ 106 0064 9BB1      		in r25,43-0x20
+ 107 0066 9F78      		andi r25,lo8(-113)
+ 108 0068 9BB9      		out 43-0x20,r25
+ 109               	.LM16:
+ 110 006a 9BB1      		in r25,43-0x20
+ 111 006c 8295      		swap r24
+ 112 006e 807F      		andi r24,0xf0
+ 113               	.LVL5:
+ 114 0070 982B      		or r25,r24
+ 115 0072 9BB9      		out 43-0x20,r25
+ 116               	.LM17:
+ 117 0074 8081      		ld r24,Z
+ 118 0076 8F77      		andi r24,lo8(127)
+ 119 0078 8083      		st Z,r24
+ 120               	/* epilogue: frame size=0 */
+ 121 007a 0895      		ret
+ 122               	/* epilogue end (size=1) */
+ 123               	/* function LED_Set_Common size 17 (16) */
+ 124               	.LFE3:
+ 158               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 sumo_leds.c
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccGBtNdL.s:3      *ABS*:0000003f __SREG__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccGBtNdL.s:4      *ABS*:0000003e __SP_H__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccGBtNdL.s:5      *ABS*:0000003d __SP_L__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccGBtNdL.s:6      *ABS*:00000000 __tmp_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccGBtNdL.s:7      *ABS*:00000001 __zero_reg__
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccGBtNdL.s:20     .text:00000000 LED_Send_Line
+C:\DOCUME~1\TT\LOCALS~1\Temp/ccGBtNdL.s:93     .text:0000005a LED_Set_Common
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
