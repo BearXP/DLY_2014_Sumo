@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=JP124 NewDesignator=JP30
+Added Component: Designator=JP31(Mini-Fit Jnr 2x1 4.2mm)
+Added Pin To Net: NetName=VBAT Pin=JP31-1
+Added Pin To Net: NetName=GND Pin=JP31-2
+Added Member To Class: ClassName=Connectors Member=Component JP31 B In

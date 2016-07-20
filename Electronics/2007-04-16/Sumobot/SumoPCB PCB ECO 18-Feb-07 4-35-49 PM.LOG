@@ -1,0 +1,18 @@
+Added Component: Designator=JP21(HDR1X6)
+Added Component: Designator=W32(Jumper SMT 3 Way)
+Added Component: Designator=W33(Jumper SMT 3 Way)
+Added Pin To Net: NetName=MOT2_A\ Pin=JP21-1
+Added Pin To Net: NetName=MOT2_A_CENT Pin=JP21-2
+Added Pin To Net: NetName=MOT2_A Pin=JP21-3
+Added Pin To Net: NetName=MOT2_B\ Pin=JP21-4
+Added Pin To Net: NetName=MOT2_B_CENT Pin=JP21-5
+Added Pin To Net: NetName=MOT2_B Pin=JP21-6
+Added Pin To Net: NetName=NetQ8_3 Pin=W32-1
+Added Pin To Net: NetName=MOT2_B\ Pin=W32-2
+Added Pin To Net: NetName=GND Pin=W32-3
+Added Pin To Net: NetName=NetQ8_4 Pin=W33-1
+Added Pin To Net: NetName=NetFH_8_1 Pin=W33-2
+Added Pin To Net: NetName=MOT2_B Pin=W33-3
+Added Member To Class: ClassName=Motor Control Member=Component JP21 Mot2_Con
+Added Member To Class: ClassName=Motor Control Member=Component W32 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W33 Jumper SMT 3Way

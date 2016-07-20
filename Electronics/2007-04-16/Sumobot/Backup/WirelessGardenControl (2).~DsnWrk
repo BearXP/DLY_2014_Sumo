@@ -1,0 +1,10 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Controller.PrjPCB
+[Project2]
+ProjectPath=WirelessUSB.PrjPCB
+[Project3]
+ProjectPath=..\Custom Libraries\TTCustomLibrary.LibPkg
+[Project4]
+ProjectPath=..\..\Sumo\Sumobot\Sumobot 2007.PRJPCB

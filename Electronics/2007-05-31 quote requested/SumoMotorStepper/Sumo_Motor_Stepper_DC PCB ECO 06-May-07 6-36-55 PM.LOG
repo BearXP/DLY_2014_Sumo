@@ -1,0 +1,4 @@
+Added Component: Designator=C1(CAPPOL7.5-16)
+Added Pin To Net: NetName=VBAT Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Member To Class: ClassName=Connectors Member=Component C1 Cap Pol1

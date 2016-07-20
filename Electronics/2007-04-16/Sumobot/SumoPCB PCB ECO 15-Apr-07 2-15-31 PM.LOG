@@ -1,0 +1,13 @@
+Added Component: Designator=VR1(TO-263 5 Pin SMT)
+Added Component: Designator=VR2(936-03)
+Added Pin To Net: NetName=NetD1_2 Pin=VR1-1
+Added Pin To Net: NetName=NetC40_1 Pin=VR1-2
+Added Pin To Net: NetName=GND Pin=VR1-3
+Added Pin To Net: NetName=GND Pin=VR1-3
+Added Pin To Net: NetName=5V Pin=VR1-4
+Added Pin To Net: NetName=GND Pin=VR1-5
+Added Pin To Net: NetName=VBAT Pin=VR2-1
+Added Pin To Net: NetName=12V Pin=VR2-3
+Added Pin To Net: NetName=GND Pin=VR2-4
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component VR1 LM2595S-5.0
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component VR2 MC7812CD2T

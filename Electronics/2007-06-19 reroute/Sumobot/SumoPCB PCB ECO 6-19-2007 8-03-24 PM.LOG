@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=U3-32
+Added Pin To Net: NetName=A16 Pin=U1-1
+Added Pin To Net: NetName=A16 Pin=U3-32
+Added Net: Name=A16
+Added Member To Class: ClassName=A[8..15] Member=Element[16]: A
+Added Room: Name=Interfaces and Connectors
+Added Room: Name=Interfaces and Connectors - Sensors
+Added Room: Name=Microcontroller and Memory
+Added Room: Name=Power Regulation and Protection

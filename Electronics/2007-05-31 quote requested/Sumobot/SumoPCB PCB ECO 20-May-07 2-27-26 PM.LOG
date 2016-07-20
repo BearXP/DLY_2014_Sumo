@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=12V Pin=JP102-1
+Removed Pin From Net: NetName=GND Pin=JP102-4
+Removed Pin From Net: NetName=5V Pin=JP102-5
+Removed Pin From Net: NetName=3V3 Pin=JP102-7
+Removed Pin From Net: NetName=GND Pin=JP102-8
+Added Pin To Net: NetName=GND Pin=JP102-1
+Added Pin To Net: NetName=3V3 Pin=JP102-4
+Added Pin To Net: NetName=GND Pin=JP102-5
+Added Pin To Net: NetName=12V Pin=JP102-7
+Added Pin To Net: NetName=5V Pin=JP102-8

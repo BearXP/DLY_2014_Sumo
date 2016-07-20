@@ -1,0 +1,14 @@
+Added Component: Designator=U101(TSSOP14)
+Added Pin To Net: NetName=3V3 Pin=U101-1
+Added Pin To Net: NetName=NetCON1_1 Pin=U101-2
+Added Pin To Net: NetName=NetCON1_2 Pin=U101-3
+Added Pin To Net: NetName=NetCON1_5 Pin=U101-4
+Added Pin To Net: NetName=NetCON1_7 Pin=U101-5
+Added Pin To Net: NetName=GND Pin=U101-7
+Added Pin To Net: NetName=SD_TRI_STATE Pin=U101-8
+Added Pin To Net: NetName=SPI_MISO Pin=U101-10
+Added Pin To Net: NetName=SPI_SCK Pin=U101-11
+Added Pin To Net: NetName=SPI_MOSI Pin=U101-12
+Added Pin To Net: NetName=SPI_SS* Pin=U101-13
+Added Pin To Net: NetName=5V Pin=U101-14
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component U101 MAX3392E

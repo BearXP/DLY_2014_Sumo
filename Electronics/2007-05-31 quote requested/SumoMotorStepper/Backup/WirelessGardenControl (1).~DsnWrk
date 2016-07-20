@@ -1,0 +1,14 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=..\Custom Libraries\TTCustomLibrary.LibPkg
+[Project2]
+ProjectPath=..\..\Sumo\Sumobot\Sumobot 2007.PRJPCB
+[Project3]
+ProjectPath=..\..\Sumo\Sumobot\Sumo.LibPkg
+[Project4]
+ProjectPath=WirelessUSB.PrjPCB
+[Project5]
+ProjectPath=Controller.PrjPCB
+[Project6]
+ProjectPath=..\..\Sumo\SumoMotorStepper\Sumo_Motor_Stepper_DC.PRJPCB

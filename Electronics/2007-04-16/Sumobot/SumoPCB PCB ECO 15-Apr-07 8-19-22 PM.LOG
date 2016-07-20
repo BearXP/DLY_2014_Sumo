@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetDS4_1 Pin=R6-1
+Removed Pin From Net: NetName=DIAG1 Pin=R6-2
+Removed Pin From Net: NetName=NetDS5_1 Pin=R7-1
+Removed Pin From Net: NetName=DIAG2 Pin=R7-2
+Removed Pin From Net: NetName=NetDS6_1 Pin=R8-1
+Removed Pin From Net: NetName=DIAG3 Pin=R8-2
+Removed Pin From Net: NetName=NetDS7_1 Pin=R9-1
+Removed Pin From Net: NetName=DIAG4 Pin=R9-2
+Removed Member From Class: ClassName=Microcontroller and Memory Member=R6
+Removed Member From Class: ClassName=Microcontroller and Memory Member=R7
+Removed Member From Class: ClassName=Microcontroller and Memory Member=R8
+Removed Member From Class: ClassName=Microcontroller and Memory Member=R9
+Added Component: Designator=RP3(4x0603 Resistor pack)

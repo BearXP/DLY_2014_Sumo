@@ -1,0 +1,10 @@
+Output: Protel
+Type  : ProtelNetlist
+From  : Project [Sumobot 2007.PRJPCB]
+   Generated File[Microcontroller and Memory.NET]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:51:48 PM On 15-Mar-07

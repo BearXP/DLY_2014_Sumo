@@ -1,0 +1,3 @@
+Record=SheetSymbol|SourceDocument=Sumo_Motor_Stepper_DC_TopLevel.SCHDOC|Designator=Connectors|SchDesignator=Connectors|FileName=Sumo_Motor_Stepper_DC_Conns.SCHDOC
+Record=SheetSymbol|SourceDocument=Sumo_Motor_Stepper_DC_TopLevel.SCHDOC|Designator=Control|SchDesignator=Control|FileName=Sumo_Motor_Stepper_DC.SCHDOC
+Record=TopLevelDocument|FileName=Sumo_Motor_Stepper_DC_TopLevel.SCHDOC

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=ADC0 Pin=JP107-1
+Removed Pin From Net: NetName=ADC1 Pin=JP107-2
+Removed Pin From Net: NetName=ADC2 Pin=JP107-3
+Removed Pin From Net: NetName=ADC3 Pin=JP107-4
+Change Component Footprint: Designator=JP107 Old Footprint=HDR1X4 New Footprint=KK 1x7 2.54mm
+Added Pin To Net: NetName=GND Pin=JP107-1
+Added Pin To Net: NetName=AGND Pin=JP107-2
+Added Pin To Net: NetName=5V Pin=JP107-3
+Added Pin To Net: NetName=ADC0 Pin=JP107-4

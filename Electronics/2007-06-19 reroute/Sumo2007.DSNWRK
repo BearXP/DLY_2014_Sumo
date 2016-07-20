@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=SumoMotorStepper\Sumo_Motor_Stepper_DC.PRJPCB
+[Project2]
+ProjectPath=SumoLibrary\Sumo.LibPkg
+[Project3]
+ProjectPath=Sumobot\Sumobot 2007.PRJPCB

@@ -1,0 +1,146 @@
+Removed Pin From Net: NetName=PE4 Pin=JP106-5
+Removed Pin From Net: NetName=MOT2_PWM_A Pin=Q5-1
+Removed Pin From Net: NetName=MOT2_A Pin=Q5-4
+Removed Pin From Net: NetName=GND Pin=Q6-3
+Removed Pin From Net: NetName=MOT2_A\ Pin=Q6-4
+Removed Pin From Net: NetName=MOT2_B Pin=Q7-4
+Removed Pin From Net: NetName=MOT2_PWM_B Pin=Q8-1
+Removed Pin From Net: NetName=GND Pin=Q8-3
+Removed Pin From Net: NetName=MOT2_B\ Pin=Q8-4
+Removed Pin From Net: NetName=PE4 Pin=U1-6
+Removed Pin From Net: NetName=MOT2_PWM_A Pin=U22-1
+Removed Pin From Net: NetName=MOT2_PWM_B Pin=U22-3
+Removed Member From Class: ClassName=Motor Control Member=U22
+Removed Member From Class: ClassName=Motor Control Member=U22
+Added Component: Designator=C30(CC2012-0805)
+Added Component: Designator=C31(CC2012-0805)
+Added Component: Designator=C32(RAD-0.3)
+Added Component: Designator=D30(DSO-C2/X3.3)
+Added Component: Designator=D31(DSO-C2/X3.3)
+Added Component: Designator=JP21(HDR1X6)
+Added Component: Designator=R30(POT4MM-2)
+Added Component: Designator=R31(POT4MM-2)
+Added Component: Designator=U30(SOIC20A)
+Added Component: Designator=U31(SC70)
+Added Component: Designator=W30(Jumper SMT 3 Way)
+Added Component: Designator=W31(Jumper SMT 3 Way)
+Added Component: Designator=W32(Jumper SMT 3 Way)
+Added Component: Designator=W33(Jumper SMT 3 Way)
+Added Component: Designator=W34(Jumper SMT 3 Way)
+Added Component: Designator=W35(Jumper SMT 3 Way)
+Added Pin To Net: NetName=GND Pin=C32-1
+Added Pin To Net: NetName=12V Pin=C32-2
+Added Pin To Net: NetName=12V Pin=D30-1
+Added Pin To Net: NetName=12V Pin=D31-1
+Added Pin To Net: NetName=MOT2_A\ Pin=JP21-1
+Added Pin To Net: NetName=MOT2_A_CENT Pin=JP21-2
+Added Pin To Net: NetName=MOT2_A Pin=JP21-3
+Added Pin To Net: NetName=MOT2_B\ Pin=JP21-4
+Added Pin To Net: NetName=MOT2_B_CENT Pin=JP21-5
+Added Pin To Net: NetName=MOT2_B Pin=JP21-6
+Added Pin To Net: NetName=MOT2_PWM_A Pin=JP106-5
+Added Pin To Net: NetName=MOT2_PWM_B Pin=JP106-6
+Added Pin To Net: NetName=PE4 Pin=Q5-1
+Added Pin To Net: NetName=MOT2_A\ Pin=Q5-4
+Added Pin To Net: NetName=MOT2_B\ Pin=Q7-4
+Added Pin To Net: NetName=GND Pin=R30-CCW
+Added Pin To Net: NetName=GND Pin=R31-CCW
+Added Pin To Net: NetName=MOT2_PWM_A Pin=U1-6
+Added Pin To Net: NetName=MOT2_PWM_B Pin=U1-7
+Added Pin To Net: NetName=12V Pin=U30-2
+Added Pin To Net: NetName=GND Pin=U30-4
+Added Pin To Net: NetName=MOT2_PWM_A Pin=U30-5
+Added Pin To Net: NetName=MOT2_PWM_B Pin=U30-6
+Added Pin To Net: NetName=12V Pin=U30-7
+Added Pin To Net: NetName=PE4 Pin=U30-13
+Added Pin To Net: NetName=GND Pin=U30-14
+Added Pin To Net: NetName=12V Pin=U30-15
+Added Pin To Net: NetName=12V Pin=U30-16
+Added Pin To Net: NetName=GND Pin=U30-17
+Added Pin To Net: NetName=MOT2_PWM_A Pin=U31-1
+Added Pin To Net: NetName=GND Pin=U31-2
+Added Pin To Net: NetName=MOT2_PWM_B Pin=U31-3
+Added Pin To Net: NetName=5V Pin=U31-5
+Added Pin To Net: NetName=PE4 Pin=U31-6
+Added Pin To Net: NetName=MOT2_PWM_A Pin=W30-2
+Added Pin To Net: NetName=MOT2_PWM_B Pin=W31-3
+Added Pin To Net: NetName=MOT2_B\ Pin=W32-2
+Added Pin To Net: NetName=GND Pin=W32-3
+Added Pin To Net: NetName=MOT2_B Pin=W33-3
+Added Pin To Net: NetName=MOT2_A Pin=W34-2
+Added Pin To Net: NetName=MOT2_A\ Pin=W35-2
+Added Pin To Net: NetName=GND Pin=W35-3
+Change Net Name : Old Net Name=MOT_DC_DIS New Net Name=MOT1_DC_DIS
+Change Net Name : Old Net Name=PE4 New Net Name=MOT2_PWM_A\
+Added Pin To Net: NetName=MOT2_AHO_A Pin=U30-11
+Added Pin To Net: NetName=MOT2_AHO_A Pin=W30-3
+Added Net: Name=MOT2_AHO_A
+Added Pin To Net: NetName=MOT2_AHS Pin=C30-2
+Added Pin To Net: NetName=MOT2_AHS Pin=U30-12
+Added Net: Name=MOT2_AHS
+Added Pin To Net: NetName=MOT2_BHO_B Pin=U30-20
+Added Pin To Net: NetName=MOT2_BHO_B Pin=W31-2
+Added Net: Name=MOT2_BHO_B
+Added Pin To Net: NetName=MOT2_BHS Pin=C31-2
+Added Pin To Net: NetName=MOT2_BHS Pin=U30-19
+Added Net: Name=MOT2_BHS
+Added Pin To Net: NetName=MOT2_DC_DIS Pin=U30-3
+Added Net: Name=MOT2_DC_DIS
+Added Pin To Net: NetName=MOT2_GATE_A Pin=Q6-1
+Added Pin To Net: NetName=MOT2_GATE_A Pin=W30-1
+Added Net: Name=MOT2_GATE_A
+Added Pin To Net: NetName=MOT2_GATE_B Pin=Q8-1
+Added Pin To Net: NetName=MOT2_GATE_B Pin=W31-1
+Added Net: Name=MOT2_GATE_B
+Added Pin To Net: NetName=MOT2_PWM_B\ Pin=Q7-1
+Added Pin To Net: NetName=MOT2_PWM_B\ Pin=U30-18
+Added Pin To Net: NetName=MOT2_PWM_B\ Pin=U31-4
+Added Net: Name=MOT2_PWM_B\
+Added Pin To Net: NetName=NetC30_1 Pin=C30-1
+Added Pin To Net: NetName=NetC30_1 Pin=D30-2
+Added Pin To Net: NetName=NetC30_1 Pin=U30-10
+Added Net: Name=NetC30_1
+Added Pin To Net: NetName=NetC31_1 Pin=C31-1
+Added Pin To Net: NetName=NetC31_1 Pin=D31-2
+Added Pin To Net: NetName=NetC31_1 Pin=U30-1
+Added Net: Name=NetC31_1
+Added Pin To Net: NetName=NetFH_7_1 Pin=W34-3
+Added Net: Name=NetFH_7_1
+Added Pin To Net: NetName=NetFH_8_1 Pin=W33-2
+Added Net: Name=NetFH_8_1
+Added Pin To Net: NetName=NetQ6_3 Pin=Q6-3
+Added Pin To Net: NetName=NetQ6_3 Pin=W35-1
+Added Net: Name=NetQ6_3
+Added Pin To Net: NetName=NetQ6_4 Pin=Q6-4
+Added Pin To Net: NetName=NetQ6_4 Pin=W34-1
+Added Net: Name=NetQ6_4
+Added Pin To Net: NetName=NetQ8_3 Pin=Q8-3
+Added Pin To Net: NetName=NetQ8_3 Pin=W32-1
+Added Net: Name=NetQ8_3
+Added Pin To Net: NetName=NetQ8_4 Pin=Q8-4
+Added Pin To Net: NetName=NetQ8_4 Pin=W33-1
+Added Net: Name=NetQ8_4
+Added Pin To Net: NetName=NetR30_CW Pin=R30-CW
+Added Pin To Net: NetName=NetR30_CW Pin=R30-W
+Added Pin To Net: NetName=NetR30_CW Pin=U30-8
+Added Net: Name=NetR30_CW
+Added Pin To Net: NetName=NetR31_CW Pin=R31-CW
+Added Pin To Net: NetName=NetR31_CW Pin=R31-W
+Added Pin To Net: NetName=NetR31_CW Pin=U30-9
+Added Net: Name=NetR31_CW
+Added Member To Class: ClassName=Motor Control Member=Component C30 Cap Pol3
+Added Member To Class: ClassName=Motor Control Member=Component C31 Cap Pol3
+Added Member To Class: ClassName=Motor Control Member=Component C32 Cap
+Added Member To Class: ClassName=Motor Control Member=Component D30 Diode
+Added Member To Class: ClassName=Motor Control Member=Component D31 Diode
+Added Member To Class: ClassName=Motor Control Member=Component JP21 Mot2_Con
+Added Member To Class: ClassName=Motor Control Member=Component R30 RPot SM
+Added Member To Class: ClassName=Motor Control Member=Component R31 RPot SM
+Added Member To Class: ClassName=Motor Control Member=Component U30 HIP4081AIBZ
+Added Member To Class: ClassName=Motor Control Member=Component U31 SN74LVC2G14
+Added Member To Class: ClassName=Motor Control Member=Component W30 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W31 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W32 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W33 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W34 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W35 Jumper SMT 3Way

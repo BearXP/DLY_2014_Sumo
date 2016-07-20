@@ -1,0 +1,18 @@
+Change Component Comment : Designator=JP121 Old Comment=B In New Comment=Mouse2
+Change Component Comment : Designator=JP120 Old Comment=B out New Comment=Mouse1
+Added Component: Designator=FH_1(FuseHolder Miniblade)
+Added Component: Designator=FH_3(FuseHolder Miniblade)
+Added Component: Designator=FH_5(FuseHolder Miniblade)
+Added Component: Designator=FH_7(FuseHolder Miniblade)
+Added Pin To Net: NetName=VBAT Pin=FH_1-1
+Added Pin To Net: NetName=MOT1_CENT Pin=FH_1-2
+Added Pin To Net: NetName=VBAT Pin=FH_3-1
+Added Pin To Net: NetName=MOT2_CENT Pin=FH_3-2
+Added Pin To Net: NetName=MOT1_DC Pin=FH_5-1
+Added Pin To Net: NetName=VBAT Pin=FH_5-2
+Added Pin To Net: NetName=MOT2_DC Pin=FH_7-1
+Added Pin To Net: NetName=VBAT Pin=FH_7-2
+Added Member To Class: ClassName=Motor Control Member=Component FH_1 SMot1
+Added Member To Class: ClassName=Motor Control Member=Component FH_3 SMot2
+Added Member To Class: ClassName=Motor Control Member=Component FH_5 Mot1_DC
+Added Member To Class: ClassName=Motor Control Member=Component FH_7 Mot2_DC

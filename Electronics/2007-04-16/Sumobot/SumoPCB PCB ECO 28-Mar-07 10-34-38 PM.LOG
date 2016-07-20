@@ -1,0 +1,34 @@
+Change Component Footprint: Designator=C8 Old Footprint=BCY-W2/D3.1 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C7 Old Footprint=BCY-W2/D3.1 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C6 Old Footprint=BCY-W2/D3.1 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C5 Old Footprint=BCY-W2/D3.1 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C4 Old Footprint=BCY-W2/D3.1 New Footprint=CC2012-0805
+Change Component Footprint: Designator=R11 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=R10 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=R9 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=R8 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=R7 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=R6 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=R5 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=R4 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=R3 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=C13 Old Footprint=CC1310-0504 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C12 Old Footprint=CC1310-0504 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C11 Old Footprint=CC1310-0504 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C10 Old Footprint=CC1310-0504 New Footprint=CC2012-0805
+Added Component: Designator=C14(CC2012-0805)
+Added Component: Designator=C15(CC2012-0805)
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=5V Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=5V Pin=C15-2
+Added Pin To Net: NetName=MOUSE1_X1 Pin=JP120-3
+Added Pin To Net: NetName=MOUSE1_Y1 Pin=JP120-4
+Added Pin To Net: NetName=MOUSE1_X2 Pin=JP120-5
+Added Pin To Net: NetName=MOUSE1_Y2 Pin=JP120-6
+Added Pin To Net: NetName=MOUSE2_X1 Pin=JP121-3
+Added Pin To Net: NetName=MOUSE2_Y1 Pin=JP121-4
+Added Pin To Net: NetName=MOUSE2_X2 Pin=JP121-5
+Added Pin To Net: NetName=MOUSE2_Y2 Pin=JP121-6
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component C14 Cap Semi
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component C15 Cap Semi

@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=SW1 Pin=R65-1
+Removed Pin From Net: NetName=SW2 Pin=R66-1
+Removed Pin From Net: NetName=SW1 Pin=S1-1
+Removed Pin From Net: NetName=GND Pin=S1-2
+Removed Pin From Net: NetName=SW2 Pin=S2-1
+Removed Pin From Net: NetName=GND Pin=S2-2
+Change Component Footprint: Designator=R66 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=R65 Old Footprint=C1608-0603 New Footprint=R2012-0805
+Change Component Footprint: Designator=S2 Old Footprint=SPST-2 New Footprint=SW SPDT
+Change Component Footprint: Designator=S1 Old Footprint=SPST-2 New Footprint=SW SPDT
+Change Component Comment : Designator=S2 Old Comment=SW-PB New Comment=SW-SPDT
+Change Component Comment : Designator=S1 Old Comment=SW-PB New Comment=SW-SPDT
+Added Component: Designator=C60(CR2012-0805)
+Added Component: Designator=C61(CR2012-0805)
+Added Component: Designator=R67(R2012-0805)
+Added Component: Designator=R68(R2012-0805)
+Added Pin To Net: NetName=GND Pin=C60-1
+Added Pin To Net: NetName=SW1 Pin=C60-2
+Added Pin To Net: NetName=SW2 Pin=C61-1
+Added Pin To Net: NetName=GND Pin=C61-2
+Added Pin To Net: NetName=GND Pin=R67-2
+Added Pin To Net: NetName=GND Pin=R68-2
+Added Pin To Net: NetName=SW1 Pin=S1-2
+Added Pin To Net: NetName=SW2 Pin=S2-2
+Added Pin To Net: NetName=NetR65_1 Pin=R65-1
+Added Net: Name=NetR65_1
+Added Pin To Net: NetName=NetR66_1 Pin=R66-1
+Added Net: Name=NetR66_1
+Added Pin To Net: NetName=NetR67_1 Pin=R67-1
+Added Pin To Net: NetName=NetR67_1 Pin=S1-1
+Added Net: Name=NetR67_1
+Added Pin To Net: NetName=NetR68_1 Pin=R68-1
+Added Pin To Net: NetName=NetR68_1 Pin=S2-1
+Added Net: Name=NetR68_1
+Added Member To Class: ClassName=Interfaces and Connectors - Sensors Member=Component C60 Cap Semi
+Added Member To Class: ClassName=Interfaces and Connectors - Sensors Member=Component C61 Cap Semi
+Added Member To Class: ClassName=Interfaces and Connectors - Sensors Member=Component R67 Res3
+Added Member To Class: ClassName=Interfaces and Connectors - Sensors Member=Component R68 Res3

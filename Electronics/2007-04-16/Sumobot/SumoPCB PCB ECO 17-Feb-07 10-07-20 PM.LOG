@@ -1,0 +1,131 @@
+Added Component: Designator=C1(CAPR5-4X5)
+Added Component: Designator=C2(CAPR5-4X5)
+Added Component: Designator=C3(CAPR5-4X5)
+Added Component: Designator=C4(BCY-W2/D3.1)
+Added Component: Designator=C5(BCY-W2/D3.1)
+Added Component: Designator=C6(BCY-W2/D3.1)
+Added Component: Designator=C7(BCY-W2/D3.1)
+Added Component: Designator=C8(BCY-W2/D3.1)
+Added Component: Designator=C20(CC2012-0805)
+Added Component: Designator=C21(CC2012-0805)
+Added Component: Designator=C22(RAD-0.3)
+Added Component: Designator=C100(CAPR5-4X5)
+Added Component: Designator=C101(CAPR5-4X5)
+Added Component: Designator=C103(CAPR5-4X5)
+Added Component: Designator=C104(CAPR5-4X5)
+Added Component: Designator=C105(CAPR5-4X5)
+Added Component: Designator=C200(CAPR5-4X5)
+Added Component: Designator=C201(BCY-W2/D3.1)
+Added Component: Designator=C202(BCY-W2/D3.1)
+Added Component: Designator=C203(CAPR5-4X5)
+Added Component: Designator=D20(DSO-C2/X3.3)
+Added Component: Designator=D21(DSO-C2/X3.3)
+Added Component: Designator=D200(DIO10.46-5.3x2.8)
+Added Component: Designator=J100(DSUB1.385-2H9)
+Added Component: Designator=JP20(HDR1X6)
+Added Component: Designator=JP30(HDR1X6)
+Added Component: Designator=JP31(HDR1X6)
+Added Component: Designator=JP32(HDR1X6)
+Added Component: Designator=JP33(HDR1X6)
+Added Component: Designator=JP100(HDR2X5)
+Added Component: Designator=JP102(HDR2X4)
+Added Component: Designator=JP104(HDR1X8)
+Added Component: Designator=JP105(HDR1X4)
+Added Component: Designator=JP106(HDR1X8)
+Added Component: Designator=JP107(HDR1X4)
+Added Component: Designator=JP108(HDR1X8)
+Added Component: Designator=JP109(HDR1X4)
+Added Component: Designator=JP110(HDR1X4)
+Added Component: Designator=JP111(HDR1X4)
+Added Component: Designator=JP120(HDR1X2)
+Added Component: Designator=JP121(HDR1X2)
+Added Component: Designator=Q1(TO-252AA)
+Added Component: Designator=Q2(TO-252AA)
+Added Component: Designator=Q3(TO-252AA)
+Added Component: Designator=Q4(TO-252AA)
+Added Component: Designator=Q5(TO-252AA)
+Added Component: Designator=Q6(TO-252AA)
+Added Component: Designator=Q7(TO-252AA)
+Added Component: Designator=Q8(TO-252AA)
+Added Component: Designator=R1(AXIAL-0.3)
+Added Component: Designator=R2(AXIAL-0.3)
+Added Component: Designator=R20(POT4MM-2)
+Added Component: Designator=R21(POT4MM-2)
+Added Component: Designator=R100(AXIAL-0.3)
+Added Component: Designator=R101(AXIAL-0.3)
+Added Component: Designator=R200(AXIAL-0.3)
+Added Component: Designator=U1(F-QFP14X14-G100/Z17N)
+Added Component: Designator=U2(SO-G20/Y1.45)
+Added Component: Designator=U3(SO-G32/Y1.45)
+Added Component: Designator=U20(SOIC20A)
+Added Component: Designator=U21(SC70)
+Added Component: Designator=U22(SC70)
+Added Component: Designator=U100(SO-G16/C5.85)
+Added Component: Designator=U200(BCY-W3)
+Added Component: Designator=VP200(PIN3)
+Added Component: Designator=VP201(PIN3)
+Added Component: Designator=W20(Jumper SMT 3 Way)
+Added Component: Designator=W21(Jumper SMT 3 Way)
+Added Component: Designator=W22(Jumper SMT 3 Way)
+Added Component: Designator=W23(Jumper SMT 3 Way)
+Added Component: Designator=W24(Jumper SMT 3 Way)
+Added Component: Designator=W25(Jumper SMT 3 Way)
+Added Component: Designator=Y1(BCY-W2/D3.1)
+Added Component: Designator=Y2(BCY-W2/D3.1)
+Added Pin To Net: NetName=NetC21_1 Pin=U20-1
+Added Pin To Net: NetName=12V Pin=U20-2
+Added Pin To Net: NetName=MOT_DC_DIS Pin=U20-3
+Added Pin To Net: NetName=GND Pin=U20-4
+Added Pin To Net: NetName=MOT1_PWM_A Pin=U20-5
+Added Pin To Net: NetName=MOT1_PWM_B Pin=U20-6
+Added Pin To Net: NetName=12V Pin=U20-7
+Added Pin To Net: NetName=NetR20_CW Pin=U20-8
+Added Pin To Net: NetName=NetR21_CW Pin=U20-9
+Added Pin To Net: NetName=NetC20_1 Pin=U20-10
+Added Pin To Net: NetName=MOT1_AHO_A Pin=U20-11
+Added Pin To Net: NetName=MOT1_AHS Pin=U20-12
+Added Pin To Net: NetName=MOT1_PWM_A\ Pin=U20-13
+Added Pin To Net: NetName=GND Pin=U20-14
+Added Pin To Net: NetName=12V Pin=U20-15
+Added Pin To Net: NetName=12V Pin=U20-16
+Added Pin To Net: NetName=GND Pin=U20-17
+Added Pin To Net: NetName=MOT1_PWM_B\ Pin=U20-18
+Added Pin To Net: NetName=MOT1_BHS Pin=U20-19
+Added Pin To Net: NetName=MOT1_BHO_B Pin=U20-20
+Added Pin To Net: NetName=MOT1_PWM_A Pin=U21-1
+Added Pin To Net: NetName=GND Pin=U21-2
+Added Pin To Net: NetName=MOT1_PWM_B Pin=U21-3
+Added Pin To Net: NetName=MOT1_PWM_B\ Pin=U21-4
+Added Pin To Net: NetName=5V Pin=U21-5
+Added Pin To Net: NetName=MOT1_PWM_A\ Pin=U21-6
+Added Pin To Net: NetName=MOT2_PWM_A Pin=U22-1
+Added Pin To Net: NetName=MOT2_PWM_B Pin=U22-3
+Added Pin To Net: NetName=NetQ7_1 Pin=U22-4
+Added Pin To Net: NetName=NetQ6_1 Pin=U22-6
+Added Pin To Net: NetName=MOT1_GATE_A Pin=W20-1
+Added Pin To Net: NetName=MOT1_PWM_A Pin=W20-2
+Added Pin To Net: NetName=MOT1_AHO_A Pin=W20-3
+Added Pin To Net: NetName=MOT1_GATE_B Pin=W21-1
+Added Pin To Net: NetName=MOT1_BHO_B Pin=W21-2
+Added Pin To Net: NetName=MOT1_PWM_B Pin=W21-3
+Added Pin To Net: NetName=NetQ4_3 Pin=W22-1
+Added Pin To Net: NetName=MOT1_B\ Pin=W22-2
+Added Pin To Net: NetName=GND Pin=W22-3
+Added Pin To Net: NetName=NetQ4_4 Pin=W23-1
+Added Pin To Net: NetName=NetFH_6_1 Pin=W23-2
+Added Pin To Net: NetName=MOT1_B Pin=W23-3
+Added Pin To Net: NetName=NetQ2_4 Pin=W24-1
+Added Pin To Net: NetName=MOT1_A Pin=W24-2
+Added Pin To Net: NetName=NetFH_5_1 Pin=W24-3
+Added Pin To Net: NetName=NetQ2_3 Pin=W25-1
+Added Pin To Net: NetName=MOT1_A\ Pin=W25-2
+Added Pin To Net: NetName=GND Pin=W25-3
+Added Member To Class: ClassName=Motor Control Member=Component U20 HIP4081AIBZ
+Added Member To Class: ClassName=Motor Control Member=Component U21 SN74LVC2G14
+Added Member To Class: ClassName=Motor Control Member=Component U22 SN74LVC2G14
+Added Member To Class: ClassName=Motor Control Member=Component W20 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W21 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W22 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W23 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W24 Jumper SMT 3Way
+Added Member To Class: ClassName=Motor Control Member=Component W25 Jumper SMT 3Way

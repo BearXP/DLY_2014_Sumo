@@ -1,0 +1,6 @@
+Added Component: Designator=JP122(Mini-Fit Jnr 2x1 4.2mm)
+Added Component: Designator=JP123(Mini-Fit Jnr 2x1 4.2mm)
+Added Pin To Net: NetName=VBAT Pin=JP122-1
+Added Pin To Net: NetName=GND Pin=JP122-2
+Added Pin To Net: NetName=VBATIN Pin=JP123-1
+Added Pin To Net: NetName=GND Pin=JP123-2

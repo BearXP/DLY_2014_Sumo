@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=SD_TRI_STATE Pin=U1-2
+Removed Pin From Net: NetName=SD_CARD_WP Pin=U1-3
+Change Component Comment : Designator=J100 Old Comment=RS-232 New Comment=RS-232-1
+Added Component: Designator=J101(DSUB1.385-2H9 Simple)
+Added Component: Designator=RP1(4x0603 Resistor pack)
+Added Pin To Net: NetName=GND Pin=J101-5
+Added Pin To Net: NetName=BMP1 Pin=RP1-1
+Added Pin To Net: NetName=BMP2 Pin=RP1-2
+Added Pin To Net: NetName=BMP3 Pin=RP1-3
+Added Pin To Net: NetName=BMP4 Pin=RP1-4
+Added Pin To Net: NetName=5V Pin=RP1-5
+Added Pin To Net: NetName=5V Pin=RP1-6
+Added Pin To Net: NetName=5V Pin=RP1-7
+Added Pin To Net: NetName=5V Pin=RP1-8
+Added Pin To Net: NetName=SD_TRI_STATE Pin=U1-8
+Added Pin To Net: NetName=SD_CARD_WP Pin=U1-9
+Added Pin To Net: NetName=NetJ101_1 Pin=J101-1
+Added Pin To Net: NetName=NetJ101_1 Pin=J101-4
+Added Pin To Net: NetName=NetJ101_1 Pin=J101-6
+Added Net: Name=NetJ101_1
+Added Pin To Net: NetName=NetJ101_2 Pin=J101-2
+Added Pin To Net: NetName=NetJ101_2 Pin=U100-8
+Added Net: Name=NetJ101_2
+Added Pin To Net: NetName=NetJ101_3 Pin=J101-3
+Added Pin To Net: NetName=NetJ101_3 Pin=U100-7
+Added Net: Name=NetJ101_3
+Added Pin To Net: NetName=NetJ101_7 Pin=J101-7
+Added Pin To Net: NetName=NetJ101_7 Pin=J101-8
+Added Net: Name=NetJ101_7
+Added Pin To Net: NetName=RXD1 Pin=U1-2
+Added Pin To Net: NetName=RXD1 Pin=U100-12
+Added Net: Name=RXD1
+Added Pin To Net: NetName=RXD2 Pin=U1-45
+Added Pin To Net: NetName=RXD2 Pin=U100-9
+Added Net: Name=RXD2
+Added Pin To Net: NetName=TXD1 Pin=U1-3
+Added Pin To Net: NetName=TXD1 Pin=U100-11
+Added Net: Name=TXD1
+Added Pin To Net: NetName=TXD2 Pin=U1-46
+Added Pin To Net: NetName=TXD2 Pin=U100-10
+Added Net: Name=TXD2
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component J101 RS-232-2
+Added Member To Class: ClassName=Interfaces and Connectors - Sensors Member=Component RP1 ResPack x4

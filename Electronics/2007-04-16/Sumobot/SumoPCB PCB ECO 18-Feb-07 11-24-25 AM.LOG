@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=MOT1_A\ Pin=JP20-3
+Added Pin To Net: NetName=MOT1_A Pin=JP20-3
+Added Room: Name=Interfaces and Connectors
+Added Room: Name=Microcontroller and Memory
+Added Room: Name=Motor Control
+Added Room: Name=Power Regulation and Protection

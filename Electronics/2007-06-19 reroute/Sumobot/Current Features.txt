@@ -1,0 +1,26 @@
+Features:
+
+ATmega2560 MCU @ 16MHz
+64KB Static RAM (using Samsung K6R1008C1D and 75373 Octal Latch, 128kBit Chip)
+32K Oscillator for RTC
+5V and 9V Regulation and Outputs (using 7809 and 7805)
+5V Supply Monitoring (using ZM33064))
+JTAG Programming Port
+RS-232 Serial Interface (using MAX232 with DB9 Connector)
+I2C Serial Interface (with Pull-Up's and Header)
+Headers for 4-inputs to ADC
+Headers for all pins PORTB, PORTE and PORTL
+Headers for 4-pins of PORTD
+
+Planned:
+
+Breakout of Ports H, J and K
+Replacing the 75373 with an FPGA to make PCB wiring a lot more maintainable, plus it supplies more I/O
+
+Not Concrete:
+
+Routing Rules (current board is set to 6mil max clearance and track size)
+Size of Board (current board is approx 12cm x 8.5cm with two quadrants sparsely populated)
+Some of the footprints will need to be created by hand as the ones currently are rough estimates provided by Protel library
+
+Note that 6mil track size is sufficient for wiring nets to be routed through gaps in 1.27mm pitch contacts. Is this desired?

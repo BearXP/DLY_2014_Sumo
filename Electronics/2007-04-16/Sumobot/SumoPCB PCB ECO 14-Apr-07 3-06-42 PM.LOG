@@ -1,0 +1,21 @@
+Change Component Footprint: Designator=R35 Old Footprint=AXIAL-0.5 New Footprint=CR2012-0805
+Change Component Footprint: Designator=R34 Old Footprint=AXIAL-0.5 New Footprint=CR2012-0805
+Change Component Footprint: Designator=R33 Old Footprint=AXIAL-0.5 New Footprint=CR2012-0805
+Change Component Footprint: Designator=R32 Old Footprint=AXIAL-0.5 New Footprint=CR2012-0805
+Change Component Footprint: Designator=R25 Old Footprint=AXIAL-0.5 New Footprint=CR2012-0805
+Change Component Footprint: Designator=R24 Old Footprint=AXIAL-0.5 New Footprint=CR2012-0805
+Change Component Footprint: Designator=R23 Old Footprint=AXIAL-0.5 New Footprint=CR2012-0805
+Change Component Footprint: Designator=R22 Old Footprint=AXIAL-0.5 New Footprint=CR2012-0805
+Change Component Comment : Designator=JP122 Old Comment=Mouse1 New Comment=B out
+Change Component Comment : Designator=JP123 Old Comment=Mouse2 New Comment=B In
+Added Component: Designator=CON1(SD Card AVX)
+Added Pin To Net: NetName=NetCON1_1 Pin=CON1-1
+Added Pin To Net: NetName=NetCON1_2 Pin=CON1-2
+Added Pin To Net: NetName=GND Pin=CON1-3
+Added Pin To Net: NetName=3V3 Pin=CON1-4
+Added Pin To Net: NetName=NetCON1_5 Pin=CON1-5
+Added Pin To Net: NetName=GND Pin=CON1-6
+Added Pin To Net: NetName=NetCON1_7 Pin=CON1-7
+Added Pin To Net: NetName=SD_CARD_DETECT Pin=CON1-10
+Added Pin To Net: NetName=SD_CARD_WP Pin=CON1-11
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component CON1 SD_CARD_CONN

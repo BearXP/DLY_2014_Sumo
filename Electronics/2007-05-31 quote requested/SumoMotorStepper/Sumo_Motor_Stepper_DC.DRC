@@ -1,0 +1,127 @@
+Protel Design System Design Rule Check
+PCB File : \Documents and Settings\TT\My Documents\Sumo\SumoMotorStepper\Sumo_Motor_Stepper_DC.PCBDOC
+Date     : 06-May-07
+Time     : 10:41:15 PM
+
+Processing Rule : Clearance Constraint (Gap=30mil) (InRegion(1110 ,2000 ,4440 ,4410)),(All)
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3890mil,2009.921mil)(3890mil,2504.567mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3880mil,2009.921mil)(3880mil,2504.567mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3870mil,2007.283mil)(3870mil,2504.567mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3872.638mil,2009.921mil)(3912.638mil,2009.921mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3900mil,2009.921mil)(3900mil,2327.205mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3910mil,2009.921mil)(3910mil,2317.205mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3922.559mil,2000mil)(4338.071mil,2000mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3930mil,1994.567mil)(3930mil,2297.205mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3940mil,1994.567mil)(3940mil,2287.205mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3860mil,1997.283mil)(3860mil,2504.567mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3920mil,2002.559mil)(3920mil,2307.205mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3850mil,1994.567mil)(3850mil,2504.567mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3840mil,1994.567mil)(3840mil,2501.929mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3912.638mil,2009.921mil)(3927.992mil,1994.567mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3857.284mil,1994.567mil)(3872.638mil,2009.921mil)  Top Layer   
+   Violation between Via (3660mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3670mil,1994.567mil)(3670mil,2334.567mil)  Top Layer   
+   Violation between Via (3660mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3660mil,1994.567mil)(3660mil,2334.567mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3207.205mil,2020mil)(4358.071mil,2020mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3217.205mil,2010mil)(4348.071mil,2010mil)  Top Layer   
+   Violation between Via (3660mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3650mil,1994.567mil)(3650mil,2334.567mil)  Top Layer   
+   Violation between Via (3270mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3227.205mil,2000mil)(3862.717mil,2000mil)  Top Layer   
+   Violation between Via (3892.638mil,1969.921mil) Top Layer to Bottom Layer and                      Polygon Track (3227.205mil,2000mil)(3862.717mil,2000mil)  Top Layer   
+   Violation between Via (3270mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3300mil,1994.567mil)(3300mil,2304.567mil)  Top Layer   
+   Violation between Via (3270mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3290mil,1994.567mil)(3290mil,2304.567mil)  Top Layer   
+   Violation between Via (3270mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3280mil,1994.567mil)(3280mil,2304.567mil)  Top Layer   
+   Violation between Via (3270mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3270mil,1994.567mil)(3270mil,2304.567mil)  Top Layer   
+   Violation between Via (3270mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3260mil,1994.567mil)(3260mil,2304.567mil)  Top Layer   
+   Violation between Via (3270mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3250mil,1994.567mil)(3250mil,2304.567mil)  Top Layer   
+   Violation between Via (3270mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3240mil,1994.567mil)(3240mil,2304.567mil)  Top Layer   
+   Violation between Via (1832.638mil,1949.921mil) Top Layer to Bottom Layer and                      Polygon Track (1850mil,1992.559mil)(1850mil,2502.559mil)  Top Layer   
+   Violation between Via (1832.638mil,1949.921mil) Top Layer to Bottom Layer and                      Polygon Track (1840mil,1992.559mil)(1840mil,2502.559mil)  Top Layer   
+   Violation between Via (1832.638mil,1949.921mil) Top Layer to Bottom Layer and                      Polygon Track (1830mil,1992.559mil)(1830mil,2502.559mil)  Top Layer   
+   Violation between Via (1832.638mil,1949.921mil) Top Layer to Bottom Layer and                      Polygon Track (1820mil,1992.559mil)(1820mil,2502.559mil)  Top Layer   
+   Violation between Via (1832.638mil,1949.921mil) Top Layer to Bottom Layer and                      Polygon Track (1810mil,1992.559mil)(1810mil,2502.559mil)  Top Layer   
+   Violation between Via (1622.638mil,1934.567mil) Top Layer to Bottom Layer and                      Polygon Track (1630mil,1992.559mil)(1630mil,2302.559mil)  Top Layer   
+   Violation between Via (1622.638mil,1934.567mil) Top Layer to Bottom Layer and                      Polygon Track (1620mil,1992.559mil)(1620mil,2302.559mil)  Top Layer   
+   Violation between Via (1622.638mil,1934.567mil) Top Layer to Bottom Layer and                      Polygon Track (1610mil,1992.559mil)(1610mil,2302.559mil)  Top Layer   
+   Violation between Via (3270mil,1947.559mil) Top Layer to Bottom Layer and                      Polygon Track (3240mil,1992.559mil)(3240mil,2210mil)  Top Layer   
+   Violation between Track (3333.346mil,2113.859mil)(3534.724mil,1912.481mil)  Bottom Layer and                      Pad U31-5(3560.316mil,1888.819mil)  Bottom Layer   
+   Violation between Track (3585.906mil,1888.819mil)(3585.906mil,2077.127mil)  Bottom Layer and                      Pad U31-5(3560.316mil,1888.819mil)  Bottom Layer   
+   Violation between Track (1737.402mil,1938.819mil)(1737.402mil,2037.283mil)  Bottom Layer and                      Pad U21-5(1762.992mil,1938.819mil)  Bottom Layer   
+   Violation between Pad R35-1(3042.638mil,2227.165mil)  Bottom Layer and                      Pad R35-2(3042.638mil,2301.969mil)  Bottom Layer   
+   Violation between Pad R34-1(3362.638mil,2217.165mil)  Bottom Layer and                      Pad R34-2(3362.638mil,2291.969mil)  Bottom Layer   
+   Violation between Pad R33-1(3742.638mil,2217.165mil)  Bottom Layer and                      Pad R33-2(3742.638mil,2291.969mil)  Bottom Layer   
+   Violation between Pad R32-1(4082.638mil,2187.165mil)  Bottom Layer and                      Pad R32-2(4082.638mil,2261.969mil)  Bottom Layer   
+   Violation between Via (4162.638mil,2214.567mil) Top Layer to Bottom Layer and                      Pad R32-2(4082.638mil,2261.969mil)  Bottom Layer   
+   Violation between Via (4162.638mil,2214.567mil) Top Layer to Bottom Layer and                      Pad R32-1(4082.638mil,2187.165mil)  Bottom Layer   
+   Violation between Pad R25-1(1342.638mil,2237.165mil)  Bottom Layer and                      Pad R25-2(1342.638mil,2311.969mil)  Bottom Layer   
+   Violation between Pad R24-1(1722.638mil,2257.165mil)  Bottom Layer and                      Pad R24-2(1722.638mil,2331.969mil)  Bottom Layer   
+   Violation between Pad R23-1(2122.638mil,2257.165mil)  Bottom Layer and                      Pad R23-2(2122.638mil,2331.969mil)  Bottom Layer   
+   Violation between Pad R22-1(2522.638mil,2257.165mil)  Bottom Layer and                      Pad R22-2(2522.638mil,2331.969mil)  Bottom Layer   
+   Violation between Via (2520mil,2182.559mil) Top Layer to Bottom Layer and                      Pad R22-1(2522.638mil,2257.165mil)  Bottom Layer   
+   Violation between Via (1535mil,2387.559mil) Top Layer to Bottom Layer and                      Pad D24-1(1612.638mil,2323.465mil)  Bottom Layer   
+   Violation between Track (1737.402mil,1938.819mil)(1737.402mil,2037.283mil)  Bottom Layer and                      Track (1700mil,1900mil)(1740mil,1900mil)  Bottom Layer   
+   Violation between Track (1737.402mil,1938.819mil)(1737.402mil,2037.283mil)  Bottom Layer and                      Track (1740mil,1900mil)(1762.992mil,1877.008mil)  Bottom Layer   
+   Violation between Track (3585.906mil,1888.819mil)(3585.906mil,2077.127mil)  Bottom Layer and                      Track (3580mil,1850mil)(3650mil,1850mil)  Bottom Layer   
+   Violation between Track (3585.906mil,1888.819mil)(3585.906mil,2077.127mil)  Bottom Layer and                      Track (3560.316mil,1830.316mil)(3580mil,1850mil)  Bottom Layer   
+   Violation between Track (3333.346mil,2113.859mil)(3534.724mil,1912.481mil)  Bottom Layer and                      Track (3560.316mil,1867.875mil)(3560.316mil,1888.819mil)  Bottom Layer   
+   Violation between Track (3585.906mil,1888.819mil)(3585.906mil,2077.127mil)  Bottom Layer and                      Track (3560.316mil,1867.875mil)(3560.316mil,1888.819mil)  Bottom Layer   
+   Violation between Track (1737.402mil,1938.819mil)(1737.402mil,2037.283mil)  Bottom Layer and                      Track (1762.992mil,1919.567mil)(1762.992mil,1938.819mil)  Bottom Layer   
+   Violation between Track (3585.906mil,1888.819mil)(3585.906mil,2077.127mil)  Bottom Layer and                      Track (3545mil,1852.559mil)(3560.316mil,1867.875mil)  Bottom Layer   
+   Violation between Track (1737.402mil,1938.819mil)(1737.402mil,2037.283mil)  Bottom Layer and                      Track (1762.992mil,1919.567mil)(1780mil,1902.559mil)  Bottom Layer   
+   Violation between Via (2175mil,1852.559mil) Top Layer to Bottom Layer and                      Track (2185mil,1787.559mil)(2520mil,2122.559mil)  Bottom Layer   
+   Violation between Via (3930mil,1920mil) Top Layer to Bottom Layer and                      Track (3842.638mil,1774.567mil)(4162.638mil,2094.567mil)  Bottom Layer   
+   Violation between Via (3960mil,1940mil) Top Layer to Bottom Layer and                      Track (3842.638mil,1774.567mil)(4162.638mil,2094.567mil)  Bottom Layer   
+   Violation between Via (2520mil,2182.559mil) Top Layer to Bottom Layer and                      Track (2427.52mil,2162.047mil)(2522.638mil,2257.165mil)  Bottom Layer   
+   Violation between Via (1612.638mil,2394.567mil) Top Layer to Bottom Layer and                      Via (1535mil,2387.559mil) Top Layer to Bottom Layer   
+Rule Violations :67
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Room Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Control'))
+Rule Violations :0
+
+Processing Rule : Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))
+   Violation between SMT Small Component R1(2820mil,1960mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component JP30(3142.362mil,4142.992mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Component JP20(1782.638mil,3204.567mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Component JP21(3482.638mil,3204.567mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component FH_1(1171.299mil,3734.567mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component FH_3(2822.638mil,3734.567mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component FH_5(1971.299mil,3734.567mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component FH_7(3642.638mil,3734.567mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component H1(5586.778mil,1575.434mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component H2(5308.825mil,1576.536mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component H3(5042.362mil,1582.992mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component H4(4757.644mil,1576.536mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between SIP Component JP1(2362.362mil,1302.992mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component JP31(2122.362mil,4362.992mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+   Violation between Small Component C1(2502.362mil,3922.992mil) on Top Layer and                      Room Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Connectors'))   
+Rule Violations :15
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation         Pad JP30-1(3142.362mil,4142.992mil)  Multi-Layer  Actual Hole Size = 169.291mil
+   Violation         Pad JP30-2(3654.173mil,4142.992mil)  Multi-Layer  Actual Hole Size = 169.291mil
+   Violation         Pad FH_1-(1511.85mil,3584.961mil)  Multi-Layer  Actual Hole Size = 149.606mil
+   Violation         Pad FH_3-(3163.19mil,3584.961mil)  Multi-Layer  Actual Hole Size = 149.606mil
+   Violation         Pad FH_5-(2311.85mil,3584.961mil)  Multi-Layer  Actual Hole Size = 149.606mil
+   Violation         Pad FH_7-(3983.19mil,3584.961mil)  Multi-Layer  Actual Hole Size = 149.606mil
+   Violation         Pad H4-1(1257.48mil,1221.575mil)  Multi-Layer  Actual Hole Size = 125.984mil
+   Violation         Pad H3-1(1259.842mil,4251.968mil)  Multi-Layer  Actual Hole Size = 125.984mil
+   Violation         Pad H2-1(4288.976mil,1221.575mil)  Multi-Layer  Actual Hole Size = 125.984mil
+   Violation         Pad H1-1(4291.339mil,4251.968mil)  Multi-Layer  Actual Hole Size = 125.984mil
+Rule Violations :10
+
+
+Violations Detected : 92
+Time Elapsed        : 00:00:03

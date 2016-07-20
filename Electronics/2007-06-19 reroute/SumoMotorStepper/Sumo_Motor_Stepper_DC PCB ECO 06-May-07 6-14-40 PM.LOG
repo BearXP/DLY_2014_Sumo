@@ -1,0 +1,18 @@
+Added Component: Designator=H1(M3 Clearance)
+Added Component: Designator=H2(M3 Clearance)
+Added Component: Designator=H3(M3 Clearance)
+Added Component: Designator=H4(M3 Clearance)
+Added Component: Designator=JP1(PHR 1x8 2mm)
+Added Pin To Net: NetName=5V Pin=JP1-1
+Added Pin To Net: NetName=12V Pin=JP1-2
+Added Pin To Net: NetName=GND Pin=JP1-3
+Added Pin To Net: NetName=MOT1_PWM_B Pin=JP1-4
+Added Pin To Net: NetName=MOT1_PWM_A Pin=JP1-5
+Added Pin To Net: NetName=GND Pin=JP1-6
+Added Pin To Net: NetName=MOT2_PWM_B Pin=JP1-7
+Added Pin To Net: NetName=MOT2_PWM_A Pin=JP1-8
+Added Member To Class: ClassName=Connectors Member=Component H1 M3 Clearance
+Added Member To Class: ClassName=Connectors Member=Component H2 M3 Clearance
+Added Member To Class: ClassName=Connectors Member=Component H3 M3 Clearance
+Added Member To Class: ClassName=Connectors Member=Component H4 M3 Clearance
+Added Member To Class: ClassName=Connectors Member=Component JP1 Sig + Power

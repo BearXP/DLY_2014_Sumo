@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=JP116 Old Footprint=HDR1X3 New Footprint=KK 1x3 2.54mm
+Change Component Footprint: Designator=JP111 Old Footprint=HDR1X4 New Footprint=ZHR 1x4 1.5mm
+Change Component Footprint: Designator=JP110 Old Footprint=HDR1X4 New Footprint=ZHR 1x4 1.5mm
+Change Component Footprint: Designator=JP109 Old Footprint=HDR1X4 New Footprint=ZHR 1x4 1.5mm
+Added Pin To Net: NetName=ADC1 Pin=JP107-5
+Added Pin To Net: NetName=ADC2 Pin=JP107-6
+Added Pin To Net: NetName=ADC3 Pin=JP107-7

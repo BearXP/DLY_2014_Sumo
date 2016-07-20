@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=MOT1_PWM_A Pin=JP106-3
+Added Pin To Net: NetName=MOT1_PWM_B Pin=JP106-4
+Added Pin To Net: NetName=MOT1_PWM_A Pin=U1-4
+Added Pin To Net: NetName=MOT1_PWM_B Pin=U1-5

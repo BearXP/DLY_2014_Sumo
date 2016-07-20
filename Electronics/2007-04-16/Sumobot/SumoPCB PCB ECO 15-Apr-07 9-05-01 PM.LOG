@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=GND Pin=C104-1
+Removed Pin From Net: NetName=NetC100_1 Pin=U100-1
+Removed Pin From Net: NetName=NetC100_2 Pin=U100-3
+Removed Pin From Net: NetName=NetC101_1 Pin=U100-4
+Removed Pin From Net: NetName=NetC101_2 Pin=U100-5
+Change Component Footprint: Designator=C105 Old Footprint=CAPR5-4X5 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C104 Old Footprint=CAPR5-4X5 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C103 Old Footprint=CAPR5-4X5 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C101 Old Footprint=CAPR5-4X5 New Footprint=CC2012-0805
+Change Component Footprint: Designator=C100 Old Footprint=CAPR5-4X5 New Footprint=CC2012-0805
+Change Component Comment : Designator=C105 Old Comment=Cap Elec New Comment=Cap Semi
+Change Component Comment : Designator=C104 Old Comment=Cap Elec New Comment=Cap Semi
+Change Component Comment : Designator=C103 Old Comment=Cap Elec New Comment=Cap Semi
+Change Component Comment : Designator=C101 Old Comment=Cap Elec New Comment=Cap Semi
+Change Component Comment : Designator=C100 Old Comment=Cap Elec New Comment=Cap Semi
+Added Pin To Net: NetName=GND Pin=C104-2
+Added Pin To Net: NetName=NetC100_2 Pin=U100-1
+Added Pin To Net: NetName=NetC100_1 Pin=U100-3
+Added Pin To Net: NetName=NetC101_2 Pin=U100-4
+Added Pin To Net: NetName=NetC101_1 Pin=U100-5
+Added Pin To Net: NetName=NetC104_1 Pin=C104-1
+Added Pin To Net: NetName=NetC104_1 Pin=U100-6
+Added Net: Name=NetC104_1

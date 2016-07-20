@@ -1,0 +1,40 @@
+Protel Design System Design Rule Check
+PCB File : \Documents and Settings\TT\My Documents\Electronics\Sumo\Sumobot\SumoPCB.PcbDoc
+Date     : 30-May-07
+Time     : 10:18:30 PM
+
+Processing Rule : Clearance Constraint (Gap=0.1524mm) ((InComponent('U1'))),((InComponent('U1')))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2.54mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Plane Constraint (Distance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2032mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+   Violation         Pad FH_8-(132.852mm,119.366mm)  Multi-Layer  Actual Hole Size = 3.8mm
+   Violation         Pad H4-1(3.5mm,3.5mm)  Multi-Layer  Actual Hole Size = 3.2mm
+   Violation         Pad H3-1(136.5mm,3.5mm)  Multi-Layer  Actual Hole Size = 3.2mm
+   Violation         Pad H2-1(136.5mm,136.5mm)  Multi-Layer  Actual Hole Size = 3.2mm
+   Violation         Pad H1-1(3.5mm,136.5mm)  Multi-Layer  Actual Hole Size = 3.2mm
+Rule Violations :5
+
+Processing Rule : Clearance Constraint (Gap=0.381mm) ((InPolygon)),(All)
+Rule Violations :0
+
+
+Violations Detected : 5
+Time Elapsed        : 00:00:10

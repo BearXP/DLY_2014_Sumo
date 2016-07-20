@@ -1,0 +1,210 @@
+Protel Design System Design Rule Check
+PCB File : \electronics\protel projects\19-06-2007 reroute\Sumobot\SumoPCB.PcbDoc
+Date     : 6/19/2007
+Time     : 8:52:46 PM
+
+Processing Rule : Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))
+   Violation between Small Component FH_8(136.652mm,128.016mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between Small Component C39(116.84mm,98.044mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between Small Component C40(91.44mm,111.252mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between Small Component C41(93.472mm,87.884mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between Small Component C42(105.156mm,120.396mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component C43(87.376mm,76.2mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between Small Component C44(109.22mm,102.616mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component C45(106.172mm,94.996mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between Small Component C46(108.204mm,88.392mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component C47(108.204mm,81.28mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component C48(92.456mm,80.772mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component C49(76.7842mm,75.1078mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component L1(94.488mm,121.92mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component L2(74.676mm,87.376mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component R201(97.028mm,133.096mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component R202(93.98mm,133.096mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component R203(108.204mm,77.724mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component R204(103.124mm,78.74mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component R205(94.488mm,73.66mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component R206(98.552mm,73.66mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between DIP Component S3(123.444mm,106.68mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between Component VR3(82.8802mm,75.6158mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT SIP Component VR1(75.692mm,100.584mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component VR2(118.364mm,82.296mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+   Violation between SMT Small Component D1(78.232mm,95.504mm) on Top Layer and                      Room Power Regulation and Protection (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Power Regulation and Protection'))   
+Rule Violations :25
+
+Processing Rule : Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))
+   Violation between Small Component H4(3.556mm,3.556mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between Small Component H3(136.271mm,3.302mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between Small Component H2(135.763mm,133.35mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between Small Component H1(3.175mm,135.89mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SOIC Component RP3(38.42mm,8.89mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C14(69.596mm,46.482mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component R10(132.08mm,70.104mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component R5(132.08mm,74.676mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component R4(132.0444mm,79.2988mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component R3(132.08mm,83.82mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component DS8(137.16mm,70.104mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component DS7(30.8mm,2.286mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component DS6(30.8mm,5.334mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component DS5(30.8mm,8.382mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component DS4(30.8mm,11.43mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component DS3(137.16mm,74.676mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component DS2(137.16mm,79.248mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component DS1(137.16mm,83.82mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C11(45.212mm,53.848mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C10(58.42mm,65.024mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SOIC Component U3(56.2336mm,25.2456mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SOIC Component U2(79.0936mm,34.3896mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between LCC Component U1(56.2026mm,50.1916mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component R2(71.4736mm,54.3286mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component R1(71.4736mm,60.4246mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C8(68.9336mm,57.3766mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C7(42.164mm,61.468mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C6(42.164mm,58.928mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C5(36.2656mm,49.0856mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C4(36.2656mm,54.1656mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C3(43.0256mm,24.7376mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C2(86.868mm,43.18mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C1(58.928mm,69.596mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between Small Component Y1(40.8376mm,54.1656mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between Small Component Y2(45.212mm,56.896mm) on Top Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C15(56.2336mm,28.0396mm) on Bottom Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C13(56.2336mm,20.6736mm) on Bottom Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component C12(56.388mm,46.736mm) on Bottom Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+   Violation between SMT Small Component R11(49.1216mm,65.3776mm) on Bottom Layer and                      Room Microcontroller and Memory (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Microcontroller and Memory'))   
+Rule Violations :39
+
+Processing Rule : Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))
+   Violation between SOIC Component RP1(10.668mm,76.2mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R101(74.168mm,14.224mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R100(73.66mm,7.112mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R107(97.536mm,14.224mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R106(97.028mm,7.112mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R105(89.408mm,14.224mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R104(89.408mm,7.112mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R103(81.788mm,14.224mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R102(81.788mm,7.112mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between Small Component JP131(5.08mm,82.296mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between Small Component JP130(5.08mm,89.408mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between Small Component JP132(5.08mm,75.184mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between Small Component JP133(5.08mm,67.564mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SIP Component JP128(101.092mm,5.08mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SIP Component JP127(92.964mm,5.08mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SIP Component JP126(85.344mm,5.08mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SIP Component JP125(77.724mm,5.08mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between Small Component JP115(136.652mm,33.401mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between Small Component JP114(130.048mm,33.401mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between Small Component JP113(123.444mm,33.401mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between Small Component JP112(116.332mm,33.401mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SIP Component JP121(110.744mm,4.318mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SIP Component JP120(118.364mm,4.318mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R70(114.173mm,29.083mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R71(114.173mm,24.511mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R72(121.793mm,29.083mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R73(121.793mm,24.511mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R74(127.889mm,29.083mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R75(127.889mm,24.511mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R76(135.001mm,29.083mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R77(135.001mm,24.511mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SOIC Component RP4(17.78mm,80.01mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between Small Component S2(23.622mm,78.232mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between Small Component S1(23.622mm,83.82mm) on Top Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component C130(26.289mm,71.247mm) on Bottom Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component C131(23.241mm,71.247mm) on Bottom Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component C132(20.193mm,71.247mm) on Bottom Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component C133(17.145mm,71.247mm) on Bottom Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R68(29.464mm,71.12mm) on Bottom Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component C61(32.512mm,71.12mm) on Bottom Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R66(33.909mm,79.375mm) on Bottom Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R67(20.32mm,83.312mm) on Bottom Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component C60(35.306mm,71.12mm) on Bottom Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+   Violation between SMT Small Component R65(33.909mm,81.915mm) on Bottom Layer and                      Room Interfaces and Connectors - Sensors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors - Sensors'))   
+Rule Violations :44
+
+Processing Rule : Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))
+   Violation between SMT Small Component R119(61.468mm,77.216mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between Component JP102(134.62mm,101.092mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between DIP Component LED1(46.736mm,137.16mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP1(67.564mm,135.128mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R118(19.812mm,96.266mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component C111(32.512mm,92.71mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component C110(32.512mm,95.758mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SOIC Component RP2(9.906mm,29.337mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component DS13(11.43mm,21.651mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component DS12(8.382mm,21.651mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component DS11(5.334mm,21.651mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component DS10(2.286mm,21.651mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between Component J101(27.94mm,30.353mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between Component J100(13.716mm,30.353mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SOIC Component U101(27.432mm,95.25mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component CON1(19.304mm,102.87mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R111(45.72mm,6.604mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R110(49.276mm,6.604mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R109(41.148mm,98.806mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R108(22.352mm,96.266mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between Small Component JP116(87.376mm,132.08mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between DIP Component JP101(40.64mm,71.628mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SOIC Component U100(19.939mm,24.191mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP121(110.744mm,4.318mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP120(118.364mm,4.318mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP111(71.374mm,3.556mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP110(63.754mm,3.556mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP109(56.134mm,3.556mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP107(131.191mm,59.69mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP105(10.16mm,5.588mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between DIP Component JP100(79.248mm,66.04mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP33(5.08mm,116.84mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP32(12.192mm,116.84mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP31(5.588mm,98.044mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SIP Component JP30(12.192mm,98.044mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component C105(14.351mm,20.1271mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component C104(28.067mm,27.7471mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component C101(27.051mm,24.191mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component C100(27.051mm,20.1271mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R120(121.539mm,56.007mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R121(115.951mm,56.134mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R122(121.539mm,51.943mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R123(115.951mm,52.07mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R124(121.539mm,47.879mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R125(115.951mm,48.006mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R126(121.539mm,43.815mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component R127(115.951mm,43.942mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between Small Component JP124(122.936mm,124.968mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component C113(66.04mm,82.296mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component C114(64.516mm,88.392mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component C115(65.532mm,84.836mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between DIP Component LED2(46.736mm,115.824mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between Component U5(54.356mm,86.868mm) on Top Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+   Violation between SMT Small Component C103(27.051mm,21.1431mm) on Bottom Layer and                      Room Interfaces and Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Interfaces and Connectors'))   
+Rule Violations :54
+
+Processing Rule : Clearance Constraint (Gap=0.381mm) ((InPolygon)),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=3.8mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2032mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+   Violation         Net GND   is broken into 2 sub-nets. Routed To 99.24%
+     Subnet : DS10-2   DS11-2   DS12-2   DS13-2   C105-2   U100-15  DS7-2    DS6-2    DS5-2    DS4-2                  C104-2   J100-5   J101-5   JP133-1  JP132-1  JP131-1  JP130-1  C103-2   C3-2     C15-1    C13-1                  U3-9     U3-25    U3-5     JP109-1  C133-1   C132-1   C131-1   R67-2    R68-2    C61-2    C60-1                  C130-1   JP101-4  JP101-6  JP31-1   JP30-1   JP33-1   JP32-1   CON1-6   JP101-3  JP101-8  JP101-10               JP110-1  JP111-1  JP125-2  JP125-3  JP100-10 JP100-2  JP126-2  JP127-2  JP121-1  JP128-2  JP126-3                JP127-3  JP128-3  R71-1    JP120-1  R73-1    R75-1    R77-1    JP112-2  JP113-2  JP114-2  JP107-1                JP115-2  JP1-3    JP1-6    VR1-3    JP116-1  R206-2   C41-2    C40-2    C42-2    C5-1     C4-1                   C11-1    U1-32    C6-1     C7-1     C111-1   U101-7   CON1-3   C110-1   U2-10    U2-1     C2-2                   R2-1     U5-43    R119-1   U5-48    C115-1   C113-2   U5-5     C114-2   VR3-2    C43-2    C49-1                  VR1-3    S3-4     JP124-3  R202-2   JP122-2  JP123-2  S3-1     JP124-2  D1-1     VR1-5    C39-2                  U1-81    C14-1    U1-11    C10-1    C1-2     DS8-2    DS3-2    DS2-2    DS1-2    JP102-2  C46-2                  VR2-4    C44-2    JP102-6  JP102-5  JP102-1  C48-1    R204-2   C47-2    C45-2    U5-37    U5-21         Subnet : C12-1    U1-62    Rule Violations :1
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : SMD To Plane Constraint (Distance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2.54mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1524mm) ((InComponent('U1'))),((InComponent('U1')))
+Rule Violations :0
+
+
+Violations Detected : 163
+Time Elapsed        : 00:00:08

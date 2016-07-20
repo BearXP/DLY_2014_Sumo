@@ -1,0 +1,6 @@
+Change Component Comment : Designator=JP121 Old Comment=Mouse2 New Comment=B In
+Change Component Comment : Designator=JP120 Old Comment=Mouse1 New Comment=B out
+Added Component: Designator=Y2(Crystal CFS206)
+Added Pin To Net: NetName=TOSC1 Pin=Y2-1
+Added Pin To Net: NetName=TOSC2 Pin=Y2-2
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component Y2 32kHz

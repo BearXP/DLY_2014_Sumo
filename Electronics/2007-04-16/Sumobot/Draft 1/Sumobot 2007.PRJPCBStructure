@@ -1,0 +1,4 @@
+Record=SheetSymbol|SourceDocument=Schematic of Schematics.SCHDOC|Designator=Interfaces and Connectors|SchDesignator=Interfaces and Connectors|FileName=Interfaces and Connectors.schdoc
+Record=SheetSymbol|SourceDocument=Schematic of Schematics.SCHDOC|Designator=Microcontroller and Memory|SchDesignator=Microcontroller and Memory|FileName=Microcontroller and Memory.schdoc
+Record=SheetSymbol|SourceDocument=Schematic of Schematics.SCHDOC|Designator=Power Regulation and Protection|SchDesignator=Power Regulation and Protection|FileName=Power Regulation and Protection.schdoc
+Record=TopLevelDocument|FileName=Schematic of Schematics.SCHDOC

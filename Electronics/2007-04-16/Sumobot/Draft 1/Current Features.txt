@@ -1,0 +1,25 @@
+Features:
+
+ATmega128 MCU @ 16MHz
+64KB Static RAM (using Samsung K6R1008C1D and 75373 Octal Latch, 128kBit Chip)
+32K Oscillator for RTC
+5V and 9V Regulation and Outputs (using 7809 and 7805)
+5V Supply Monitoring (using ZM33064))
+JTAG Programming Port
+RS-232 Serial Interface (using MAX232 with DB9 Connector)
+I2C Serial Interface (with Pull-Up's and Header)
+Headers for 4-inputs to ADC
+Headers for all pins PORTB and PORTE
+Headers for 4-pins of PORTD
+
+Planned:
+
+Convert PORTB/E into FET Driven Outputs? OR Stepper Motor Driver Circuitry? (combination of L296 and L297N)
+Is an FPGA Required?
+Include Power Distribution on this board? (1.2x25 = 30V --> 24V --> 12V --> 9V --> 5V)
+
+Not Concrete:
+
+Routing Rules (current board is set to 10mil max clearance and track size, could probably be reduced to 6mil)
+Size of Board (current board is 12cm x 6.5cm)
+Some of the footprints will need to be created by hand as the ones currently are rough estimates provided by Protel library

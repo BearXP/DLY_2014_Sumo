@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=R20-CCW
+Removed Pin From Net: NetName=NetR20_CW Pin=R20-CW
+Removed Pin From Net: NetName=NetR20_CW Pin=R20-W
+Removed Pin From Net: NetName=GND Pin=R21-CCW
+Removed Pin From Net: NetName=NetR21_CW Pin=R21-CW
+Removed Pin From Net: NetName=NetR21_CW Pin=R21-W
+Change Component Footprint: Designator=D20 Old Footprint=DSO-C2/X3.3 New Footprint=SMA
+Change Component Footprint: Designator=R21 Old Footprint=POT4MM-2 New Footprint=CR2012-0805
+Change Component Footprint: Designator=R20 Old Footprint=POT4MM-2 New Footprint=CR2012-0805
+Change Component Comment : Designator=JP123 Old Comment=Batt In New Comment=B In
+Change Component Comment : Designator=JP122 Old Comment=Batt Out New Comment=B out
+Change Component Comment : Designator=JP123 Old Comment=B In New Comment=Mouse2
+Change Component Comment : Designator=JP122 Old Comment=B out New Comment=Mouse1
+Change Component Comment : Designator=R21 Old Comment=RPot SM New Comment=Res Semi
+Change Component Comment : Designator=R20 Old Comment=RPot SM New Comment=Res Semi
+Change Net Name : Old Net Name=NetR20_CW New Net Name=NetR20_2
+Change Net Name : Old Net Name=NetR21_CW New Net Name=NetR21_2

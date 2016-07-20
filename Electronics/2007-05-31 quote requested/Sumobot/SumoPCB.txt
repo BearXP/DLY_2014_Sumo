@@ -1,0 +1,49 @@
+Field=Description,String,Description,100|Field=Designator,String,Designator,100|Field=Footprint,String,Footprint,100|Field=LibRef,String,LibRef,100|Field=Quantity,String,Quantity,100|ReportField=ProjectFileName,Sumobot 2007.PRJPCB|ReportField=ProjectFullPath,C:\Documents and Settings\TT\My Documents\Electronics\Sumo\Sumobot\Sumobot 2007.PRJPCB|ReportField=Title,Bill of Materials For PCB Document [SumoPCB.PcbDoc]|ReportField=TotalQuantity,162|ReportField=ReportTime,11:07:17 AM|ReportField=ReportDate,26-May-07|ReportField=ReportDateTime,26-May-07 11:07:17 AM|ReportField=OutputName,Bill of Materials|ReportField=OutputType,BOM_PartType|ReportField=GeneratorName,ReportComponents|ReportField=GeneratorDescription,Component Reports|ReportField=VariantName,None|ReportField=DataSourceFileName,SumoPCB.PcbDoc|ReportField=DataSourceFullPath,C:\Documents and Settings\TT\My Documents\Electronics\Sumo\Sumobot\SumoPCB.PcbDoc
+Polarized Capacitor (Axial)|C1, C2, C3|CC4532-1812|Cap Pol2|3
+Capacitor|C4, C5, C6, C7, C8|CC2012-0805|Cap|5
+Capacitor (Semiconductor SIM Model)|C10, C11, C12, C13, C14, C15, C110, C111, C113, C114, C115|CC2012-0805|Cap Semi|11
+Polarized Capacitor (Radial)|C39, C40, C41, C44, C46|CAPPOL5-10X13|Cap Pol1|5
+Polarized Capacitor (Radial)|C42|CAPPOL7.5-16|Cap Pol1|1
+Polarized Capacitor (Surface Mount)|C43, C45, C47|CC2012-0805|Cap Pol3|3
+Capacitor (Semiconductor SIM Model)|C48, C49|CC4532-1812|Cap Semi|2
+Capacitor (Semiconductor SIM Model)|C60, C61, C130, C131, C132, C133|CR2012-0805|Cap Semi|6
+Polarized Capacitor (Axial)|C100, C101, C103, C104, C105|CC2012-0805|Cap Pol2|5
+|CON1|SD CARD AVX|SD_CARD_CONN|1
+Schottky Rectifier|D1|SMB|10BQ100|1
+Typical BLUE SiC LED|DS1, DS2, DS3, DS4, DS5, DS6, DS7, DS8, DS10, DS11, DS12, DS13|SMD _LED|LED3|12
+Fuse Holder|FH_8|FUSEHOLDER MINIBLADE|Fuse_Holder|1
+3.2mm ID clearance hole for M3 screw|H1, H2, H3, H4|M3 CLEARANCE|M3 Clearance hole|4
+Receptacle Assembly, 9 Position, Right Angle|J100, J101|DSUB1.385-2H9 SIMPLE|D Connector 9|2
+Header, 8-Pin|JP1|PHR 1X8 2MM|Header 8|1
+Header, 6-Pin|JP30, JP31, JP32, JP33|ZHR 1X6 1.5MM|Header 6|4
+Header, 5-Pin, Dual row|JP100, JP101|HDR2X5|Header 5X2|2
+Header, 4-Pin, Dual row|JP102|microfit 2x4 3mm|Header 4X2|1
+Header, 4-Pin|JP105|EHR 1X4 2.5MM|Header 4|1
+Header, 4-Pin|JP107|KK 1X7 2.54MM|Header 4|1
+Header, 4-Pin|JP109, JP110, JP111|ZHR 1X4 1.5MM|Header 4|3
+Header, 3-Pin|JP112, JP113, JP114, JP115|ZHR 1X3 1.5MM|MHDR1X3|4
+Header, 3-Pin|JP116|KK 1X3 2.54MM|Header 3|1
+Header, 2-Pin|JP120, JP121|PHR 1X6 2MM|Header 2|2
+Header, 2-Pin|JP122, JP123|MINI-FIT JNR 2X1 4.2MM|Header 2|2
+Header, 3-Pin|JP124|DC JACK 2.1MM|Header 3|1
+Header, 4-Pin, Right Angle|JP125, JP126, JP127, JP128|EHR 1X4 2.5MM|Header 4H|4
+Header, 2-Pin|JP130, JP131, JP132, JP133|KK 1X2 2.54MM|Header 2|4
+Inductor|L1, L2|CDRH125 INDUCTOR|Inductor|2
+|LED1, LED2|8X8 LED MATRIX|8x8 LED Matrix|2
+Resistor|R1, R2, R3, R4, R5, R10, R11, R65, R66, R67, R68, R100, R101, R102, R103, R104, R105, R106, R107, R201, R202, R203, R204, R205, R206|R2012-0805|Res1, Res3|25
+Resistor|R70, R71, R72, R73, R74, R75, R76, R77, R108, R109, R110, R111, R118, R119, R120, R121, R122, R123, R124, R125, R126, R127|CR2012-0805|Res1, Res3|22
+|RP1, RP3, RP4|4X0805 RESISTOR PACK|ResPack x4|3
+|RP2|4X0603 RESISTOR PACK|ResPack x4|1
+Switch|S1, S2|SW SPDT|SW-PB|2
+SPDT Subminiature Toggle Switch, Right Angle Mounting, Vertical Actuation|S3|SW  DPDT|SW-SPDT|1
+Atmel ATmega2560 MCU|U1|F-QFP14X14-G100/Z17N|ATmega2560|1
+Octal 8-bit D-type Latch|U2|SO-G20/Y1.45|74373|1
+Samsung 128Kx8 High-Speed Static RAM|U3|SO-G32/Y1.45|K6R1008C1D|1
+TLC5920 16x8 LED Driver|U5|SSO-G48|TLC5920 16x8 LED Driver|1
+Maxim RS-232 Transceiver|U100|SO-G16/C5.85|MAX232|1
+|U101|TSSOP14|MAX3392E|1
+Simple Switcher Power Converter 150 kHz 1A Step Down Voltage Regulator|VR1|TO-263 5 PIN SMT|LM2595S-5.0|1
+Three-Terminal Positive Voltage Regulator|VR2|936-03|MC7812CD2T|1
+|VR3|SOT-23-5|TPS76333DBVR|1
+Crystal Oscillator|Y1|CRYSTAL HC49SLF|XTAL|1
+Crystal Oscillator|Y2|CRYSTAL CFS206|XTAL|1

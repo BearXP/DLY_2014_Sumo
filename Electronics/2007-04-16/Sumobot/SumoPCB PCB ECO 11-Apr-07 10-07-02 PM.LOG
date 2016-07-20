@@ -1,0 +1,6 @@
+Change Component Comment : Designator=JP123 Old Comment=B In New Comment=Mouse2
+Change Component Comment : Designator=JP122 Old Comment=B out New Comment=Mouse1
+Added Pin To Net: NetName=GND Pin=R30-1
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Pin To Net: NetName=GND Pin=R31-1
+Added Pin To Net: NetName=NetR31_2 Pin=R31-2

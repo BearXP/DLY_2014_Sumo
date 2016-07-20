@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=XTAL1 Pin=C4-2
+Removed Pin From Net: NetName=XTAL2 Pin=C5-2
+Removed Pin From Net: NetName=XTAL1 Pin=Y1-1
+Removed Pin From Net: NetName=XTAL2 Pin=Y1-2
+Added Component: Designator=JP108(HDR1X8)
+Added Pin To Net: NetName=XTAL2 Pin=C4-2
+Added Pin To Net: NetName=XTAL1 Pin=C5-2
+Added Pin To Net: NetName=XTAL2 Pin=Y1-1
+Added Pin To Net: NetName=XTAL1 Pin=Y1-2
+Added Pin To Net: NetName=PL0 Pin=JP108-1
+Added Pin To Net: NetName=PL0 Pin=U1-35
+Added Net: Name=PL0
+Added Pin To Net: NetName=PL1 Pin=JP108-2
+Added Pin To Net: NetName=PL1 Pin=U1-36
+Added Net: Name=PL1
+Added Pin To Net: NetName=PL2 Pin=JP108-3
+Added Pin To Net: NetName=PL2 Pin=U1-37
+Added Net: Name=PL2
+Added Pin To Net: NetName=PL3 Pin=JP108-4
+Added Pin To Net: NetName=PL3 Pin=U1-38
+Added Net: Name=PL3
+Added Pin To Net: NetName=PL4 Pin=JP108-5
+Added Pin To Net: NetName=PL4 Pin=U1-39
+Added Net: Name=PL4
+Added Pin To Net: NetName=PL5 Pin=JP108-6
+Added Pin To Net: NetName=PL5 Pin=U1-40
+Added Net: Name=PL5
+Added Pin To Net: NetName=PL6 Pin=JP108-7
+Added Pin To Net: NetName=PL6 Pin=U1-41
+Added Net: Name=PL6
+Added Pin To Net: NetName=PL7 Pin=JP108-8
+Added Pin To Net: NetName=PL7 Pin=U1-42
+Added Net: Name=PL7
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component JP108 PORTL

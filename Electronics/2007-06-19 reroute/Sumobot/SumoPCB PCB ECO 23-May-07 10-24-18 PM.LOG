@@ -1,0 +1,121 @@
+Change Component Comment : Designator=U5 Old Comment=TLS5920 New Comment=TLC5920
+Added Component: Designator=R119(CR2012-0805)
+Added Pin To Net: NetName=GND Pin=R119-1
+Added Pin To Net: NetName=COM0 Pin=LED1-13
+Added Pin To Net: NetName=COM0 Pin=LED2-13
+Added Pin To Net: NetName=COM0 Pin=U5-4
+Added Net: Name=COM0
+Added Pin To Net: NetName=COM1 Pin=LED1-3
+Added Pin To Net: NetName=COM1 Pin=LED2-3
+Added Pin To Net: NetName=COM1 Pin=U5-3
+Added Net: Name=COM1
+Added Pin To Net: NetName=COM2 Pin=LED1-4
+Added Pin To Net: NetName=COM2 Pin=LED2-4
+Added Pin To Net: NetName=COM2 Pin=U5-2
+Added Net: Name=COM2
+Added Pin To Net: NetName=COM3 Pin=LED1-10
+Added Pin To Net: NetName=COM3 Pin=LED2-10
+Added Pin To Net: NetName=COM3 Pin=U5-1
+Added Net: Name=COM3
+Added Pin To Net: NetName=COM4 Pin=LED1-6
+Added Pin To Net: NetName=COM4 Pin=LED2-6
+Added Pin To Net: NetName=COM4 Pin=U5-47
+Added Net: Name=COM4
+Added Pin To Net: NetName=COM5 Pin=LED1-11
+Added Pin To Net: NetName=COM5 Pin=LED2-11
+Added Pin To Net: NetName=COM5 Pin=U5-46
+Added Net: Name=COM5
+Added Pin To Net: NetName=COM6 Pin=LED1-15
+Added Pin To Net: NetName=COM6 Pin=LED2-15
+Added Pin To Net: NetName=COM6 Pin=U5-45
+Added Net: Name=COM6
+Added Pin To Net: NetName=COM7 Pin=LED1-16
+Added Pin To Net: NetName=COM7 Pin=LED2-16
+Added Pin To Net: NetName=COM7 Pin=U5-44
+Added Net: Name=COM7
+Added Pin To Net: NetName=LED_BLANK Pin=JP105-1
+Added Pin To Net: NetName=LED_BLANK Pin=U1-42
+Added Pin To Net: NetName=LED_BLANK Pin=U5-39
+Added Net: Name=LED_BLANK
+Added Pin To Net: NetName=LED_CSEL0 Pin=RP3-8
+Added Pin To Net: NetName=LED_CSEL0 Pin=U1-47
+Added Pin To Net: NetName=LED_CSEL0 Pin=U5-38
+Added Net: Name=LED_CSEL0
+Added Pin To Net: NetName=LED_CSEL1 Pin=RP3-7
+Added Pin To Net: NetName=LED_CSEL1 Pin=U1-48
+Added Pin To Net: NetName=LED_CSEL1 Pin=U5-36
+Added Net: Name=LED_CSEL1
+Added Pin To Net: NetName=LED_CSEL2 Pin=RP3-6
+Added Pin To Net: NetName=LED_CSEL2 Pin=U1-49
+Added Pin To Net: NetName=LED_CSEL2 Pin=U5-35
+Added Net: Name=LED_CSEL2
+Added Pin To Net: NetName=LED_D\S\E\L\ Pin=RP3-5
+Added Pin To Net: NetName=LED_D\S\E\L\ Pin=U1-50
+Added Pin To Net: NetName=LED_D\S\E\L\ Pin=U5-33
+Added Net: Name=LED_D\S\E\L\
+Added Pin To Net: NetName=LED_L\A\T\C\H\ Pin=JP105-2
+Added Pin To Net: NetName=LED_L\A\T\C\H\ Pin=U1-41
+Added Pin To Net: NetName=LED_L\A\T\C\H\ Pin=U5-41
+Added Net: Name=LED_L\A\T\C\H\
+Added Pin To Net: NetName=LED_SCLK Pin=JP105-4
+Added Pin To Net: NetName=LED_SCLK Pin=U1-39
+Added Pin To Net: NetName=LED_SCLK Pin=U5-40
+Added Net: Name=LED_SCLK
+Added Pin To Net: NetName=LED_SIN Pin=JP105-3
+Added Pin To Net: NetName=LED_SIN Pin=U1-40
+Added Pin To Net: NetName=LED_SIN Pin=U5-42
+Added Net: Name=LED_SIN
+Added Pin To Net: NetName=LED_SOUT Pin=U5-32
+Added Net: Name=LED_SOUT
+Added Pin To Net: NetName=NetR119_2 Pin=R119-2
+Added Pin To Net: NetName=NetR119_2 Pin=U5-17
+Added Net: Name=NetR119_2
+Added Pin To Net: NetName=SEG0 Pin=LED2-9
+Added Pin To Net: NetName=SEG0 Pin=U5-9
+Added Net: Name=SEG0
+Added Pin To Net: NetName=SEG1 Pin=LED2-14
+Added Pin To Net: NetName=SEG1 Pin=U5-10
+Added Net: Name=SEG1
+Added Pin To Net: NetName=SEG2 Pin=LED2-8
+Added Pin To Net: NetName=SEG2 Pin=U5-11
+Added Net: Name=SEG2
+Added Pin To Net: NetName=SEG3 Pin=LED2-12
+Added Pin To Net: NetName=SEG3 Pin=U5-12
+Added Net: Name=SEG3
+Added Pin To Net: NetName=SEG4 Pin=LED2-1
+Added Pin To Net: NetName=SEG4 Pin=U5-13
+Added Net: Name=SEG4
+Added Pin To Net: NetName=SEG5 Pin=LED2-7
+Added Pin To Net: NetName=SEG5 Pin=U5-14
+Added Net: Name=SEG5
+Added Pin To Net: NetName=SEG6 Pin=LED2-2
+Added Pin To Net: NetName=SEG6 Pin=U5-15
+Added Net: Name=SEG6
+Added Pin To Net: NetName=SEG7 Pin=LED2-5
+Added Pin To Net: NetName=SEG7 Pin=U5-16
+Added Net: Name=SEG7
+Added Pin To Net: NetName=SEG8 Pin=LED1-9
+Added Pin To Net: NetName=SEG8 Pin=U5-22
+Added Net: Name=SEG8
+Added Pin To Net: NetName=SEG9 Pin=LED1-14
+Added Pin To Net: NetName=SEG9 Pin=U5-23
+Added Net: Name=SEG9
+Added Pin To Net: NetName=SEG10 Pin=LED1-8
+Added Pin To Net: NetName=SEG10 Pin=U5-24
+Added Net: Name=SEG10
+Added Pin To Net: NetName=SEG11 Pin=LED1-12
+Added Pin To Net: NetName=SEG11 Pin=U5-25
+Added Net: Name=SEG11
+Added Pin To Net: NetName=SEG12 Pin=LED1-1
+Added Pin To Net: NetName=SEG12 Pin=U5-26
+Added Net: Name=SEG12
+Added Pin To Net: NetName=SEG13 Pin=LED1-7
+Added Pin To Net: NetName=SEG13 Pin=U5-27
+Added Net: Name=SEG13
+Added Pin To Net: NetName=SEG14 Pin=LED1-2
+Added Pin To Net: NetName=SEG14 Pin=U5-28
+Added Net: Name=SEG14
+Added Pin To Net: NetName=SEG15 Pin=LED1-5
+Added Pin To Net: NetName=SEG15 Pin=U5-29
+Added Net: Name=SEG15
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component R119 Res3

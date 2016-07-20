@@ -1,0 +1,30 @@
+Added Component: Designator=DS10(SMD _LED)
+Added Component: Designator=DS11(SMD _LED)
+Added Component: Designator=DS12(SMD _LED)
+Added Component: Designator=DS13(SMD _LED)
+Added Component: Designator=RP2(4x0603 Resistor pack)
+Added Pin To Net: NetName=GND Pin=DS10-2
+Added Pin To Net: NetName=GND Pin=DS11-2
+Added Pin To Net: NetName=GND Pin=DS12-2
+Added Pin To Net: NetName=GND Pin=DS13-2
+Added Pin To Net: NetName=RXD2 Pin=RP2-5
+Added Pin To Net: NetName=TXD2 Pin=RP2-6
+Added Pin To Net: NetName=RXD1 Pin=RP2-7
+Added Pin To Net: NetName=TXD1 Pin=RP2-8
+Added Pin To Net: NetName=NetDS10_1 Pin=DS10-1
+Added Pin To Net: NetName=NetDS10_1 Pin=RP2-1
+Added Net: Name=NetDS10_1
+Added Pin To Net: NetName=NetDS11_1 Pin=DS11-1
+Added Pin To Net: NetName=NetDS11_1 Pin=RP2-2
+Added Net: Name=NetDS11_1
+Added Pin To Net: NetName=NetDS12_1 Pin=DS12-1
+Added Pin To Net: NetName=NetDS12_1 Pin=RP2-3
+Added Net: Name=NetDS12_1
+Added Pin To Net: NetName=NetDS13_1 Pin=DS13-1
+Added Pin To Net: NetName=NetDS13_1 Pin=RP2-4
+Added Net: Name=NetDS13_1
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component DS10 T1
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component DS11 R1
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component DS12 T2
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component DS13 R2
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component RP2 ResPack x4

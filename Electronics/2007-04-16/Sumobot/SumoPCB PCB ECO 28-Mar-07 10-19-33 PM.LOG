@@ -1,0 +1,466 @@
+Removed Pin From Net: NetName=VBAT Pin=C200-1
+Removed Pin From Net: NetName=GND Pin=C200-2
+Removed Pin From Net: NetName=GND Pin=C201-1
+Removed Pin From Net: NetName=GND Pin=C202-1
+Removed Pin From Net: NetName=5V Pin=C202-2
+Removed Pin From Net: NetName=5V Pin=C203-1
+Removed Pin From Net: NetName=GND Pin=C203-2
+Removed Pin From Net: NetName=VBAT Pin=D200-1
+Removed Pin From Net: NetName=5V Pin=JP102-7
+Removed Pin From Net: NetName=PE6 Pin=JP106-7
+Removed Pin From Net: NetName=PE7 Pin=JP106-8
+Removed Pin From Net: NetName=PL4 Pin=JP108-5
+Removed Pin From Net: NetName=PL5 Pin=JP108-6
+Removed Pin From Net: NetName=PL6 Pin=JP108-7
+Removed Pin From Net: NetName=PL7 Pin=JP108-8
+Removed Pin From Net: NetName=VBAT Pin=JP120-1
+Removed Pin From Net: NetName=GND Pin=JP120-2
+Removed Pin From Net: NetName=VBAT Pin=JP121-1
+Removed Pin From Net: NetName=GND Pin=JP121-2
+Removed Pin From Net: NetName=SDA Pin=R100-1
+Removed Pin From Net: NetName=5V Pin=R100-2
+Removed Pin From Net: NetName=SCL Pin=R101-1
+Removed Pin From Net: NetName=5V Pin=R101-2
+Removed Pin From Net: NetName=MOT1_PWM_A Pin=U1-4
+Removed Pin From Net: NetName=MOT1_PWM_B Pin=U1-5
+Removed Pin From Net: NetName=GND Pin=U3-28
+Removed Pin From Net: NetName=NetJ100_2 Pin=U100-7
+Removed Pin From Net: NetName=GND Pin=VP200-2
+Removed Pin From Net: NetName=GND Pin=VP201-2
+Removed Pin From Net: NetName=5V Pin=VP201-3
+Removed Member From Class: ClassName=Power Regulation and Protection Member=C200
+Removed Member From Class: ClassName=Power Regulation and Protection Member=C200
+Removed Member From Class: ClassName=Power Regulation and Protection Member=C201
+Removed Member From Class: ClassName=Power Regulation and Protection Member=C201
+Removed Member From Class: ClassName=Power Regulation and Protection Member=C202
+Removed Member From Class: ClassName=Power Regulation and Protection Member=C202
+Removed Member From Class: ClassName=Power Regulation and Protection Member=C203
+Removed Member From Class: ClassName=Power Regulation and Protection Member=C203
+Removed Member From Class: ClassName=Power Regulation and Protection Member=D200
+Removed Member From Class: ClassName=Power Regulation and Protection Member=D200
+Removed Member From Class: ClassName=Interfaces and Connectors Member=JP104
+Removed Member From Class: ClassName=Interfaces and Connectors Member=JP104
+Removed Member From Class: ClassName=Interfaces and Connectors Member=JP106
+Removed Member From Class: ClassName=Interfaces and Connectors Member=JP106
+Removed Member From Class: ClassName=Interfaces and Connectors Member=JP108
+Removed Member From Class: ClassName=Interfaces and Connectors Member=JP108
+Removed Member From Class: ClassName=Power Regulation and Protection Member=VP200
+Removed Member From Class: ClassName=Power Regulation and Protection Member=VP200
+Removed Member From Class: ClassName=Power Regulation and Protection Member=VP201
+Removed Member From Class: ClassName=Power Regulation and Protection Member=VP201
+Change Component Footprint: Designator=JP121 Old Footprint=HDR1X2 New Footprint=HDR2X3
+Change Component Footprint: Designator=JP120 Old Footprint=HDR1X2 New Footprint=HDR2X3
+Change Component Comment : Designator=R101 Old Comment=10K New Comment=Res1
+Change Component Comment : Designator=R100 Old Comment=10K New Comment=Res1
+Change Component Comment : Designator=U2 Old Comment=74373 New Comment=74HC373M
+Change Component Comment : Designator=JP121 Old Comment=Batt In New Comment=Mouse2
+Change Component Comment : Designator=JP120 Old Comment=Batt Out New Comment=Mouse1
+Change Component Comment : Designator=JP105 Old Comment=PORTD New Comment=PORTL
+Added Component: Designator=C10(CC1310-0504)
+Added Component: Designator=C11(CC1310-0504)
+Added Component: Designator=C12(CC1310-0504)
+Added Component: Designator=C13(CC1310-0504)
+Added Component: Designator=C39(RB7.6-15)
+Added Component: Designator=C40(RB7.6-15)
+Added Component: Designator=C41(CAPPR7.5-16X35)
+Added Component: Designator=C42(RB7.6-15)
+Added Component: Designator=C43(CC2012-0805)
+Added Component: Designator=C44(RB7.6-15)
+Added Component: Designator=C45(CC2012-0805)
+Added Component: Designator=C46(RB7.6-15)
+Added Component: Designator=C47(CC2012-0805)
+Added Component: Designator=C48(CC4532-1812)
+Added Component: Designator=C49(CC4532-1812)
+Added Component: Designator=DS1(SMD _LED)
+Added Component: Designator=DS2(SMD _LED)
+Added Component: Designator=DS3(SMD _LED)
+Added Component: Designator=DS4(SMD _LED)
+Added Component: Designator=DS5(SMD _LED)
+Added Component: Designator=DS6(SMD _LED)
+Added Component: Designator=DS7(SMD _LED)
+Added Component: Designator=DS8(SMD _LED)
+Added Component: Designator=JP101(HDR2X5)
+Added Component: Designator=JP112(MHDR1X3)
+Added Component: Designator=JP113(MHDR1X3)
+Added Component: Designator=JP114(MHDR1X3)
+Added Component: Designator=JP115(MHDR1X3)
+Added Component: Designator=JP116(HDR1X3)
+Added Component: Designator=JP122(HDR1X2)
+Added Component: Designator=JP123(HDR1X2)
+Added Component: Designator=JP125(HDR1X4H)
+Added Component: Designator=JP126(HDR1X4H)
+Added Component: Designator=JP127(HDR1X4H)
+Added Component: Designator=JP128(HDR1X4H)
+Added Component: Designator=JP130(HDR1X2)
+Added Component: Designator=JP131(HDR1X2)
+Added Component: Designator=JP132(HDR1X2)
+Added Component: Designator=JP133(HDR1X2)
+Added Component: Designator=L1(C1005-0402)
+Added Component: Designator=L2(C1005-0402)
+Added Component: Designator=R3(C1608-0603)
+Added Component: Designator=R4(C1608-0603)
+Added Component: Designator=R5(C1608-0603)
+Added Component: Designator=R6(C1608-0603)
+Added Component: Designator=R7(C1608-0603)
+Added Component: Designator=R8(C1608-0603)
+Added Component: Designator=R9(C1608-0603)
+Added Component: Designator=R10(C1608-0603)
+Added Component: Designator=R11(C1608-0603)
+Added Component: Designator=R65(C1608-0603)
+Added Component: Designator=R66(C1608-0603)
+Added Component: Designator=R102(AXIAL-0.3)
+Added Component: Designator=R103(AXIAL-0.3)
+Added Component: Designator=R104(AXIAL-0.3)
+Added Component: Designator=R105(AXIAL-0.3)
+Added Component: Designator=R106(AXIAL-0.3)
+Added Component: Designator=R107(AXIAL-0.3)
+Added Component: Designator=R108(C1608-0603)
+Added Component: Designator=R109(C1608-0603)
+Added Component: Designator=R110(AXIAL-0.3)
+Added Component: Designator=R111(AXIAL-0.3)
+Added Component: Designator=R201(R2012-0805)
+Added Component: Designator=R202(R2012-0805)
+Added Component: Designator=R203(R2012-0805)
+Added Component: Designator=R204(R2012-0805)
+Added Component: Designator=R205(R2012-0805)
+Added Component: Designator=R206(R2012-0805)
+Added Component: Designator=S1(SPST-2)
+Added Component: Designator=S2(SPST-2)
+Added Component: Designator=S3(TL36WW15050)
+Added Component: Designator=VR3(SOT-23-5)
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=5V Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=5V Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=5V Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=5V Pin=C13-2
+Added Pin To Net: NetName=VBAT Pin=C39-1
+Added Pin To Net: NetName=GND Pin=C39-2
+Added Pin To Net: NetName=GND Pin=C40-2
+Added Pin To Net: NetName=5V Pin=C41-1
+Added Pin To Net: NetName=GND Pin=C41-2
+Added Pin To Net: NetName=VBAT Pin=C42-1
+Added Pin To Net: NetName=GND Pin=C42-2
+Added Pin To Net: NetName=5V Pin=C43-1
+Added Pin To Net: NetName=GND Pin=C43-2
+Added Pin To Net: NetName=VBAT Pin=C44-1
+Added Pin To Net: NetName=GND Pin=C44-2
+Added Pin To Net: NetName=VBAT Pin=C45-1
+Added Pin To Net: NetName=GND Pin=C45-2
+Added Pin To Net: NetName=12V Pin=C46-1
+Added Pin To Net: NetName=GND Pin=C46-2
+Added Pin To Net: NetName=12V Pin=C47-1
+Added Pin To Net: NetName=GND Pin=C47-2
+Added Pin To Net: NetName=GND Pin=C48-1
+Added Pin To Net: NetName=5V Pin=C48-2
+Added Pin To Net: NetName=GND Pin=C49-1
+Added Pin To Net: NetName=GND Pin=DS1-2
+Added Pin To Net: NetName=GND Pin=DS2-2
+Added Pin To Net: NetName=GND Pin=DS3-2
+Added Pin To Net: NetName=GND Pin=DS4-2
+Added Pin To Net: NetName=GND Pin=DS5-2
+Added Pin To Net: NetName=GND Pin=DS6-2
+Added Pin To Net: NetName=GND Pin=DS7-2
+Added Pin To Net: NetName=GND Pin=DS8-2
+Added Pin To Net: NetName=SPI_MOSI Pin=JP101-1
+Added Pin To Net: NetName=5V Pin=JP101-2
+Added Pin To Net: NetName=GND Pin=JP101-3
+Added Pin To Net: NetName=GND Pin=JP101-4
+Added Pin To Net: NetName=RESET Pin=JP101-5
+Added Pin To Net: NetName=GND Pin=JP101-6
+Added Pin To Net: NetName=SPI_SCK Pin=JP101-7
+Added Pin To Net: NetName=GND Pin=JP101-8
+Added Pin To Net: NetName=SPI_MISO Pin=JP101-9
+Added Pin To Net: NetName=GND Pin=JP101-10
+Added Pin To Net: NetName=12V Pin=JP102-1
+Added Pin To Net: NetName=12V Pin=JP102-3
+Added Pin To Net: NetName=PL4 Pin=JP105-1
+Added Pin To Net: NetName=PL5 Pin=JP105-2
+Added Pin To Net: NetName=PL6 Pin=JP105-3
+Added Pin To Net: NetName=PL7 Pin=JP105-4
+Added Pin To Net: NetName=GND Pin=JP112-2
+Added Pin To Net: NetName=5V Pin=JP112-3
+Added Pin To Net: NetName=GND Pin=JP113-2
+Added Pin To Net: NetName=5V Pin=JP113-3
+Added Pin To Net: NetName=GND Pin=JP114-2
+Added Pin To Net: NetName=5V Pin=JP114-3
+Added Pin To Net: NetName=GND Pin=JP115-2
+Added Pin To Net: NetName=5V Pin=JP115-3
+Added Pin To Net: NetName=GND Pin=JP116-1
+Added Pin To Net: NetName=12V Pin=JP116-2
+Added Pin To Net: NetName=GND Pin=JP120-1
+Added Pin To Net: NetName=5V Pin=JP120-2
+Added Pin To Net: NetName=GND Pin=JP121-1
+Added Pin To Net: NetName=5V Pin=JP121-2
+Added Pin To Net: NetName=VBAT Pin=JP122-1
+Added Pin To Net: NetName=GND Pin=JP122-2
+Added Pin To Net: NetName=GND Pin=JP123-2
+Added Pin To Net: NetName=GND Pin=JP125-2
+Added Pin To Net: NetName=GND Pin=JP125-3
+Added Pin To Net: NetName=GND Pin=JP126-2
+Added Pin To Net: NetName=GND Pin=JP126-3
+Added Pin To Net: NetName=GND Pin=JP127-2
+Added Pin To Net: NetName=GND Pin=JP127-3
+Added Pin To Net: NetName=GND Pin=JP128-2
+Added Pin To Net: NetName=GND Pin=JP128-3
+Added Pin To Net: NetName=GND Pin=JP130-1
+Added Pin To Net: NetName=GND Pin=JP131-1
+Added Pin To Net: NetName=GND Pin=JP132-1
+Added Pin To Net: NetName=GND Pin=JP133-1
+Added Pin To Net: NetName=VBAT Pin=L1-1
+Added Pin To Net: NetName=5V Pin=L2-2
+Added Pin To Net: NetName=VBAT Pin=R3-2
+Added Pin To Net: NetName=12V Pin=R4-2
+Added Pin To Net: NetName=5V Pin=R5-2
+Added Pin To Net: NetName=5V Pin=R11-1
+Added Pin To Net: NetName=RESET Pin=R11-2
+Added Pin To Net: NetName=5V Pin=R65-2
+Added Pin To Net: NetName=5V Pin=R66-2
+Added Pin To Net: NetName=5V Pin=R100-1
+Added Pin To Net: NetName=5V Pin=R101-1
+Added Pin To Net: NetName=5V Pin=R102-1
+Added Pin To Net: NetName=5V Pin=R103-1
+Added Pin To Net: NetName=5V Pin=R104-1
+Added Pin To Net: NetName=5V Pin=R105-1
+Added Pin To Net: NetName=5V Pin=R106-1
+Added Pin To Net: NetName=5V Pin=R107-1
+Added Pin To Net: NetName=5V Pin=R108-2
+Added Pin To Net: NetName=5V Pin=R109-2
+Added Pin To Net: NetName=SDA Pin=R110-1
+Added Pin To Net: NetName=5V Pin=R110-2
+Added Pin To Net: NetName=SCL Pin=R111-1
+Added Pin To Net: NetName=5V Pin=R111-2
+Added Pin To Net: NetName=VBAT Pin=R201-1
+Added Pin To Net: NetName=GND Pin=R202-2
+Added Pin To Net: NetName=12V Pin=R203-1
+Added Pin To Net: NetName=GND Pin=R204-2
+Added Pin To Net: NetName=5V Pin=R205-1
+Added Pin To Net: NetName=GND Pin=R206-2
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S2-2
+Added Pin To Net: NetName=GND Pin=S3-1
+Added Pin To Net: NetName=VBAT Pin=S3-2
+Added Pin To Net: NetName=MOT1_PWM_A Pin=U1-16
+Added Pin To Net: NetName=MOT1_PWM_B Pin=U1-17
+Added Pin To Net: NetName=NetJ100_2 Pin=U100-13
+Added Pin To Net: NetName=5V Pin=VR3-1
+Added Pin To Net: NetName=GND Pin=VR3-2
+Added Pin To Net: NetName=3V3 ENABLE Pin=U1-79
+Added Pin To Net: NetName=3V3 ENABLE Pin=VR3-3
+Added Net: Name=3V3 ENABLE
+Added Pin To Net: NetName=3V3 Pin=C49-2
+Added Pin To Net: NetName=3V3 Pin=JP102-7
+Added Pin To Net: NetName=3V3 Pin=R10-2
+Added Pin To Net: NetName=3V3 Pin=VR3-5
+Added Net: Name=3V3
+Added Pin To Net: NetName=5VSENSE Pin=R205-2
+Added Pin To Net: NetName=5VSENSE Pin=R206-1
+Added Pin To Net: NetName=5VSENSE Pin=U1-87
+Added Net: Name=5VSENSE
+Added Pin To Net: NetName=12VSENSE Pin=R203-2
+Added Pin To Net: NetName=12VSENSE Pin=R204-1
+Added Pin To Net: NetName=12VSENSE Pin=U1-88
+Added Net: Name=12VSENSE
+Added Pin To Net: NetName=BMP1 Pin=JP130-2
+Added Pin To Net: NetName=BMP1 Pin=U1-35
+Added Net: Name=BMP1
+Added Pin To Net: NetName=BMP2 Pin=JP131-2
+Added Pin To Net: NetName=BMP2 Pin=U1-36
+Added Net: Name=BMP2
+Added Pin To Net: NetName=BMP3 Pin=JP132-2
+Added Pin To Net: NetName=BMP3 Pin=U1-37
+Added Net: Name=BMP3
+Added Pin To Net: NetName=BMP4 Pin=JP133-2
+Added Pin To Net: NetName=BMP4 Pin=U1-38
+Added Net: Name=BMP4
+Added Pin To Net: NetName=DIAG1 Pin=R6-2
+Added Pin To Net: NetName=DIAG1 Pin=U1-47
+Added Net: Name=DIAG1
+Added Pin To Net: NetName=DIAG2 Pin=R7-2
+Added Pin To Net: NetName=DIAG2 Pin=U1-48
+Added Net: Name=DIAG2
+Added Pin To Net: NetName=DIAG3 Pin=R8-2
+Added Pin To Net: NetName=DIAG3 Pin=U1-49
+Added Net: Name=DIAG3
+Added Pin To Net: NetName=DIAG4 Pin=R9-2
+Added Pin To Net: NetName=DIAG4 Pin=U1-50
+Added Net: Name=DIAG4
+Added Pin To Net: NetName=IRD1 Pin=JP112-1
+Added Pin To Net: NetName=IRD1 Pin=U1-86
+Added Net: Name=IRD1
+Added Pin To Net: NetName=IRD2 Pin=JP113-1
+Added Pin To Net: NetName=IRD2 Pin=U1-85
+Added Net: Name=IRD2
+Added Pin To Net: NetName=IRD3 Pin=JP114-1
+Added Pin To Net: NetName=IRD3 Pin=U1-84
+Added Net: Name=IRD3
+Added Pin To Net: NetName=IRD4 Pin=JP115-1
+Added Pin To Net: NetName=IRD4 Pin=U1-83
+Added Net: Name=IRD4
+Added Pin To Net: NetName=LINE1 Pin=JP125-1
+Added Pin To Net: NetName=LINE1 Pin=R100-2
+Added Pin To Net: NetName=LINE1 Pin=U1-67
+Added Net: Name=LINE1
+Added Pin To Net: NetName=LINE2 Pin=JP126-1
+Added Pin To Net: NetName=LINE2 Pin=R102-2
+Added Pin To Net: NetName=LINE2 Pin=U1-68
+Added Net: Name=LINE2
+Added Pin To Net: NetName=LINE3 Pin=JP127-1
+Added Pin To Net: NetName=LINE3 Pin=R104-2
+Added Pin To Net: NetName=LINE3 Pin=U1-69
+Added Net: Name=LINE3
+Added Pin To Net: NetName=LINE4 Pin=JP128-1
+Added Pin To Net: NetName=LINE4 Pin=R106-2
+Added Pin To Net: NetName=LINE4 Pin=U1-82
+Added Net: Name=LINE4
+Added Pin To Net: NetName=MOT1_CENT Pin=JP20-2
+Added Pin To Net: NetName=MOT1_CENT Pin=JP20-5
+Added Net: Name=MOT1_CENT
+Added Pin To Net: NetName=MOT1_DC Pin=W23-2
+Added Pin To Net: NetName=MOT1_DC Pin=W24-3
+Added Net: Name=MOT1_DC
+Added Pin To Net: NetName=MOT2_CENT Pin=JP21-2
+Added Pin To Net: NetName=MOT2_CENT Pin=JP21-5
+Added Net: Name=MOT2_CENT
+Added Pin To Net: NetName=MOT2_DC Pin=W33-2
+Added Pin To Net: NetName=MOT2_DC Pin=W34-3
+Added Net: Name=MOT2_DC
+Added Pin To Net: NetName=MOUSE1_X1 Pin=U1-63
+Added Net: Name=MOUSE1_X1
+Added Pin To Net: NetName=MOUSE1_X2 Pin=U1-12
+Added Net: Name=MOUSE1_X2
+Added Pin To Net: NetName=MOUSE1_Y1 Pin=U1-64
+Added Net: Name=MOUSE1_Y1
+Added Pin To Net: NetName=MOUSE1_Y2 Pin=U1-13
+Added Net: Name=MOUSE1_Y2
+Added Pin To Net: NetName=MOUSE2_X1 Pin=U1-65
+Added Net: Name=MOUSE2_X1
+Added Pin To Net: NetName=MOUSE2_X2 Pin=U1-14
+Added Net: Name=MOUSE2_X2
+Added Pin To Net: NetName=MOUSE2_Y1 Pin=U1-66
+Added Net: Name=MOUSE2_Y1
+Added Pin To Net: NetName=MOUSE2_Y2 Pin=U1-15
+Added Net: Name=MOUSE2_Y2
+Added Pin To Net: NetName=NetC40_1 Pin=C40-1
+Added Pin To Net: NetName=NetC40_1 Pin=L1-2
+Added Net: Name=NetC40_1
+Added Net: Name=NetCON1_1
+Added Net: Name=NetCON1_2
+Added Net: Name=NetCON1_5
+Added Net: Name=NetCON1_7
+Added Pin To Net: NetName=NetD1_2 Pin=L2-1
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetDS1_1 Pin=DS1-1
+Added Pin To Net: NetName=NetDS1_1 Pin=R3-1
+Added Net: Name=NetDS1_1
+Added Pin To Net: NetName=NetDS2_1 Pin=DS2-1
+Added Pin To Net: NetName=NetDS2_1 Pin=R4-1
+Added Net: Name=NetDS2_1
+Added Pin To Net: NetName=NetDS3_1 Pin=DS3-1
+Added Pin To Net: NetName=NetDS3_1 Pin=R5-1
+Added Net: Name=NetDS3_1
+Added Pin To Net: NetName=NetDS4_1 Pin=DS4-1
+Added Pin To Net: NetName=NetDS4_1 Pin=R6-1
+Added Net: Name=NetDS4_1
+Added Pin To Net: NetName=NetDS5_1 Pin=DS5-1
+Added Pin To Net: NetName=NetDS5_1 Pin=R7-1
+Added Net: Name=NetDS5_1
+Added Pin To Net: NetName=NetDS6_1 Pin=DS6-1
+Added Pin To Net: NetName=NetDS6_1 Pin=R8-1
+Added Net: Name=NetDS6_1
+Added Pin To Net: NetName=NetDS7_1 Pin=DS7-1
+Added Pin To Net: NetName=NetDS7_1 Pin=R9-1
+Added Net: Name=NetDS7_1
+Added Pin To Net: NetName=NetDS8_1 Pin=DS8-1
+Added Pin To Net: NetName=NetDS8_1 Pin=R10-1
+Added Net: Name=NetDS8_1
+Added Pin To Net: NetName=NetJP125_4 Pin=JP125-4
+Added Pin To Net: NetName=NetJP125_4 Pin=R101-2
+Added Net: Name=NetJP125_4
+Added Pin To Net: NetName=NetJP126_4 Pin=JP126-4
+Added Pin To Net: NetName=NetJP126_4 Pin=R103-2
+Added Net: Name=NetJP126_4
+Added Pin To Net: NetName=NetJP127_4 Pin=JP127-4
+Added Pin To Net: NetName=NetJP127_4 Pin=R105-2
+Added Net: Name=NetJP127_4
+Added Pin To Net: NetName=NetJP128_4 Pin=JP128-4
+Added Pin To Net: NetName=NetJP128_4 Pin=R107-2
+Added Net: Name=NetJP128_4
+Added Pin To Net: NetName=RD* Pin=U1-52
+Added Pin To Net: NetName=RD* Pin=U3-28
+Added Net: Name=RD*
+Added Pin To Net: NetName=SD_CARD_DETECT Pin=R108-1
+Added Pin To Net: NetName=SD_CARD_DETECT Pin=U1-4
+Added Net: Name=SD_CARD_DETECT
+Added Pin To Net: NetName=SD_CARD_WP Pin=R109-1
+Added Pin To Net: NetName=SD_CARD_WP Pin=U1-3
+Added Net: Name=SD_CARD_WP
+Added Pin To Net: NetName=SD_TRI_STATE Pin=U1-2
+Added Net: Name=SD_TRI_STATE
+Added Pin To Net: NetName=SOUND_OUT_PWM Pin=JP116-3
+Added Pin To Net: NetName=SOUND_OUT_PWM Pin=U1-5
+Added Net: Name=SOUND_OUT_PWM
+Added Pin To Net: NetName=SW1 Pin=R65-1
+Added Pin To Net: NetName=SW1 Pin=S1-1
+Added Pin To Net: NetName=SW1 Pin=U1-18
+Added Net: Name=SW1
+Added Pin To Net: NetName=SW2 Pin=R66-1
+Added Pin To Net: NetName=SW2 Pin=S2-1
+Added Pin To Net: NetName=SW2 Pin=U1-27
+Added Net: Name=SW2
+Added Pin To Net: NetName=VBATIN Pin=JP123-1
+Added Pin To Net: NetName=VBATIN Pin=S3-3
+Added Net: Name=VBATIN
+Added Pin To Net: NetName=VBATSENSE Pin=R201-2
+Added Pin To Net: NetName=VBATSENSE Pin=R202-1
+Added Pin To Net: NetName=VBATSENSE Pin=U1-89
+Added Net: Name=VBATSENSE
+Added Class: Name=Interfaces and Connectors - Sensors
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component C10 Cap Semi
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component C11 Cap Semi
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component C12 Cap Semi
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component C13 Cap Semi
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C39 Cap Pol1
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C40 Cap Pol1
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C41 Cap Pol1
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C42 Cap Pol1
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C43 Cap Pol3
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C44 Cap Pol1
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C45 Cap Pol3
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C46 Cap Pol1
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C47 Cap Pol3
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C48 Tant
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component C49 Low ESR 0.3-10R Tant
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component DS1 Bat
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component DS2 12V
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component DS3 5V
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component DS4 Diag1
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component DS5 Diag2
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component DS6 Diag3
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component DS7 Diag4
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component DS8 3V3
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component JP101 ISP
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component JP116 Snd
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component L1 Inductor
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component L2 Inductor
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component R3 Res3
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component R4 Res3
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component R5 Res3
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component R6 Res3
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component R7 Res3
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component R8 Res3
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component R9 Res3
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component R10 Res3
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component R11 Res3
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component R108 Res3
+Added Member To Class: ClassName=Interfaces and Connectors Member=Component R109 Res3
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component R201 Res3
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component R202 Res3
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component R203 Res3
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component R204 Res3
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component R205 Res3
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component R206 Res3
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component S3 SW-SPDT
+Added Member To Class: ClassName=Power Regulation and Protection Member=Component VR3 TPS76333DBVR

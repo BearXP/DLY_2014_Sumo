@@ -1,0 +1,10 @@
+Added Component: Designator=RP3(4x0603 Resistor pack)
+Added Pin To Net: NetName=NetDS4_1 Pin=RP3-1
+Added Pin To Net: NetName=NetDS5_1 Pin=RP3-2
+Added Pin To Net: NetName=NetDS6_1 Pin=RP3-3
+Added Pin To Net: NetName=NetDS7_1 Pin=RP3-4
+Added Pin To Net: NetName=DIAG4 Pin=RP3-5
+Added Pin To Net: NetName=DIAG3 Pin=RP3-6
+Added Pin To Net: NetName=DIAG2 Pin=RP3-7
+Added Pin To Net: NetName=DIAG1 Pin=RP3-8
+Added Member To Class: ClassName=Microcontroller and Memory Member=Component RP3 ResPack x4

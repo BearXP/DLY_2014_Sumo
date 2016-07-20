@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=GND Pin=C22-1
+Removed Pin From Net: NetName=GND Pin=C32-1
+Removed Pin From Net: NetName=GND Pin=JP1-3
+Removed Pin From Net: NetName=GND Pin=JP1-6
+Removed Pin From Net: NetName=GND Pin=R20-1
+Removed Pin From Net: NetName=GND Pin=R21-1
+Removed Pin From Net: NetName=GND Pin=R30-1
+Removed Pin From Net: NetName=GND Pin=R31-1
+Removed Pin From Net: NetName=GND Pin=U20-4
+Removed Pin From Net: NetName=GND Pin=U21-2
+Removed Pin From Net: NetName=GND Pin=U30-4
+Removed Pin From Net: NetName=GND Pin=U31-2
+Added Component: Designator=R1(CR2012-0805)
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=DGND Pin=C22-1
+Added Pin To Net: NetName=DGND Pin=C32-1
+Added Pin To Net: NetName=DGND Pin=JP1-3
+Added Pin To Net: NetName=DGND Pin=JP1-6
+Added Pin To Net: NetName=DGND Pin=R1-2
+Added Pin To Net: NetName=DGND Pin=R20-1
+Added Pin To Net: NetName=DGND Pin=R21-1
+Added Pin To Net: NetName=DGND Pin=R30-1
+Added Pin To Net: NetName=DGND Pin=R31-1
+Added Pin To Net: NetName=DGND Pin=U20-4
+Added Pin To Net: NetName=DGND Pin=U21-2
+Added Pin To Net: NetName=DGND Pin=U30-4
+Added Pin To Net: NetName=DGND Pin=U31-2
+Added Net: Name=DGND
+Added Member To Class: ClassName=Connectors Member=Component R1 Res Semi

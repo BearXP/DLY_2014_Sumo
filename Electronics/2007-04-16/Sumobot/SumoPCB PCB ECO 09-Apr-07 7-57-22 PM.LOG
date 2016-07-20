@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=Y2 Old Footprint=BCY-W2/D3.1 New Footprint=Crystal CFS206
+Change Component Footprint: Designator=Y1 Old Footprint=BCY-W2/D3.1 New Footprint=Crystal HC49SLF
+Change Component Footprint: Designator=C22 Old Footprint=RAD-0.3 New Footprint=CC2012-0805
+Change Component Comment : Designator=JP121 Old Comment=Mouse2 New Comment=B In
+Change Component Comment : Designator=JP120 Old Comment=Mouse1 New Comment=B out

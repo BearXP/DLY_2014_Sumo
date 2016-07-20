@@ -1,0 +1,13 @@
+Removed Member From Class: ClassName=Sumo_Motor_Stepper_DC Member=FH_1
+Removed Member From Class: ClassName=Sumo_Motor_Stepper_DC Member=FH_3
+Removed Member From Class: ClassName=Sumo_Motor_Stepper_DC Member=FH_5
+Removed Member From Class: ClassName=Sumo_Motor_Stepper_DC Member=FH_7
+Removed Member From Class: ClassName=Sumo_Motor_Stepper_DC Member=JP20
+Removed Member From Class: ClassName=Sumo_Motor_Stepper_DC Member=JP21
+Added Component: Designator=JP124(Screw Terminals x 2 x M4)
+Added Pin To Net: NetName=GND Pin=JP124-2
+Added Pin To Net: NetName=VBATIN Pin=JP124-1
+Added Net: Name=VBATIN
+Added Class: Name=Connectors
+Added Room: Name=Connectors
+Added Room: Name=Control
